@@ -24,6 +24,7 @@ Experienced Software Engineer with 25+ years in software development and 15 year
 
 ### UTRS, Inc – Software Engineer  
 *Picatinny Arsenal, NJ | 2011–August 2025*  
+- Worked in a collaborative team environment developing virtual reality and augmented reality training software to train soldiers in the use and maintenance of DoD weaponry.
 - Developed and fielded military simulation software including Paladin 109A6, M109A7, M777, LAVTAGTS and M119 trainers  
 - Led full lifecycle from system analysis, client requirement gathering, design, deployment, and documentation  
 - Installed classroom tech infrastructure, maintained and supported both domestic and international deployments  
