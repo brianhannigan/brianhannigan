@@ -9,14 +9,29 @@ Experienced Software Engineer with 25+ years in software development and 15 year
 
 ---
 
-## TECHNICAL SKILLS
+## Technical Skills
 
-- **Languages:** C#, Python, Bash, SQL, JavaScript, HTML/CSS, VBA, COBOL, CICS, React  
-- **Frameworks:** .NET, ASP.NET, MOSS 2007, SiteCore, Ektron CMS, Unity 3D, Unreal  
-- **OS:** Windows, Linux/Unix, OS/400, OS/390  
-- **Databases:** SQLite, SQL Server, MySQL, Oracle  
-- **Tools & Platforms:** Visual Studio, IIS, Git, Jira, Docker, VMware, DI2E, GitHub, Confluence, ProjectForge, Lotus Notes/Domino  
-- **Protocols:** TCP/IP, SSL, SSH, REST APIs, Classroom Networks, DevOps Automation
+**Languages:**  
+C#, Python, Bash, SQL, JavaScript, HTML/CSS, VBA, COBOL, CICS, React, Powershell
+
+**Frameworks:**  
+.NET, ASP.NET, MOSS 2007, SiteCore, Ektron CMS, Unity 3D, Unreal
+
+**Operating Systems:**  
+Windows, Linux/Unix, OS/400, OS/390
+
+**Databases:**  
+SQLite, SQL Server, MySQL, Oracle
+
+**Tools & Platforms:**  
+Visual Studio, IIS, Git, Jira, Docker, VMware, DI2E, GitHub, Confluence, ProjectForge, Lotus Notes/Domino, Velociraptor, Atomic Red Team, RITA, OWASP ZAP, Wazuh, BlueSpawn, CyberChef, Zeek, DeepBlue CLI, DeepWhite CLI, Sysmon, Sigma Rules, Winlogbeat, Canarytokens, Cowrie, Portspoof, HoneyUser, Honeyports
+
+**Security & Forensics:**  
+Host-based firewalling, memory forensics (Volatility), EDR simulation, threat hunting, deception engineering, security log correlation, UEBA, TCP/IP network analysis, Nmap, Wireshark, tcpdump, Windows Event Log Analysis
+
+**Protocols:**  
+TCP/IP, SSL, SSH, REST APIs, Classroom Networks, DevOps Automation
+
 
 ---
 
