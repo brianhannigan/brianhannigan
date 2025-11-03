@@ -1,5 +1,5 @@
 # Brian Hannigan
-07876 • (862) 243-1177 • jobshannigan@gmail.com • InfraGard Member • [LinkedIn](https://www.linkedin.com/in/brianjhannigan)
+InfraGard Member • [LinkedIn](https://www.linkedin.com/in/brianjhannigan)
 
 ## Summary
 AI Consultant, Technical Trainer, and Software Engineer with extensive experience leading U.S. Government/DoD training, simulation, and secure systems initiatives. Creator of the **AI Consulting Playbook**, equipping executives with frameworks for workflow automation, value mapping, bias/risk assessments, and sector-specific strategies. Proven track record of designing immersive VR/AR classrooms, developing simulation ecosystems, and guiding organizations through AI readiness, adoption, and optimization. Experienced keynote speaker and advisor helping CEOs, CIOs, and innovation leaders align AI with mission readiness and measurable business value.
