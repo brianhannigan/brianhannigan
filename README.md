@@ -1,7 +1,5 @@
-### Hi 👋
-
-I'm Brian Hannigan.
-
+<h1>Hi, I'm Brian! <br/><a href="https://github.com/brianhannigan">Software Engineer</a>, <a href="https://www.linkedin.com/in/brianhannigan/">Cybersecurity Professional</a>, <a href="https://www.linkedin.com/in/brianhannigan/">AI Consultant and Strategist</a>
+  <br>
 ### ✍️ Languages
 
 ![HTML](https://img.shields.io/badge/-HTML-E34F26?style=flat&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-C69D00?style=flat&logo=javascript&logoColor=white) ![TypeScript](https://img.shields.io/badge/-c%23-2f74c0?style=flat&logo=c%23&logoColor=white) ![CSS](https://img.shields.io/badge/-CSS-254bdd?style=flat&logo=css3) ![Python](https://img.shields.io/badge/-Python-2b5b83?style=flat&logo=python&logoColor=ffdf76)
