@@ -39,14 +39,4 @@ My work spans vulnerability management, threat detection, and security operation
 
 ---
 
-
-## 📊 GitHub Activity & Stats
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=brianhannigan&theme=github-light&hide_border=true" alt="Brian Hannigan's Activity Graph" />
-</p>
-
----
-
-
 > 🔒 *Focused on building secure, resilient systems and training the next generation of engineers and defenders.*
