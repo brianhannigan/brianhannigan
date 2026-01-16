@@ -1,3 +1,9 @@
+<h1>Hi, I'm Brian! <br/><a href="https://github.com/brianhannigan">Software Engineer</a>, <a href="https://www.linkedin.com/in/brianhannigan/">Cybersecurity Professional</a>, <a href="https://www.linkedin.com/in/brianhannigan/">AI Consultant and Strategist</a>
+  <br>
+  <br>
+  <h2>👨‍💻 Software Development Projects:</h2>
+<br><br><br>
+  <h2>CyberSecurity Projects:</h2>
 # <a href="https://www.linkedin.com/in/brianhannigan/">Brian Hannigan</a>'s IT and Cybersecurity Project Portfolio 🔐
 
 I'm passionate about cybersecurity and love tackling complex challenges through hands-on projects. From vulnerability management to threat detection, these projects allow me to dive deep into the ever-evolving landscape of cybersecurity. Please feel free to check them out and see the work I’ve put into enhancing security operations and processes!
@@ -31,16 +37,9 @@ I'm passionate about cybersecurity and love tackling complex challenges through 
 <img width="35" alt="image" src="https://github.com/user-attachments/assets/77649969-9910-4994-8b96-74a116cfb2a8">
 -->
 
+  
 
-<h1>Hi, I'm Brian! <br/><a href="https://github.com/brianhannigan">Software Engineer</a>, <a href="https://www.linkedin.com/in/brianhannigan/">Cybersecurity Professional</a>, <a href="https://www.linkedin.com/in/brianhannigan/">AI Consultant and Strategist</a>
-  <br>
-  <br>
-  <h2>👨‍💻 Software Development Projects:</h2>
-
-  <h2>CyberSecurity Projects:</h2>
-  Vulnerability Management Projects:
-  https://github.com/brianhannigan/vulnerability-management-program
-
+<br><br><br>
   <h2>✍️ Languages</h2>
 
 
