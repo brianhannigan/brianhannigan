@@ -3,6 +3,10 @@
   <br>
   <h2>👨‍💻 Software Development Projects:</h2>
 
+  <h2>CyberSecurity Projects:</h2>
+  Vulnerability Management Projects:
+  https://github.com/brianhannigan/vulnerability-management-program
+
   <h2>✍️ Languages</h2>
 
 
