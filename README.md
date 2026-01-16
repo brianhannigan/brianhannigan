@@ -1,153 +1,52 @@
-<h1>Hi, I'm Brian! <br/><a href="https://github.com/brianhannigan">Software Engineer</a>, <a href="https://www.linkedin.com/in/brianhannigan/">Cybersecurity Professional</a>, <a href="https://www.linkedin.com/in/brianhannigan/">AI Consultant and Strategist</a>
-  <br>
-  <br>
-  <h2>👨‍💻 Software Development Projects:</h2>
-<br><br><br>
-  <h2>CyberSecurity Projects:</h2>
-# <a href="https://www.linkedin.com/in/brianhannigan/">Brian Hannigan</a>'s IT and Cybersecurity Project Portfolio 🔐
+# 👋 Hi, I'm Brian Hannigan
 
-I'm passionate about cybersecurity and love tackling complex challenges through hands-on projects. From vulnerability management to threat detection, these projects allow me to dive deep into the ever-evolving landscape of cybersecurity. Please feel free to check them out and see the work I’ve put into enhancing security operations and processes!
+**Software Engineer | Cybersecurity Professional | AI Consultant & Strategist**
 
+- 💻 Software Engineer with 20+ years in complex systems
+- 🔐 Cybersecurity professional focused on vulnerability management, threat hunting, and secure systems
+- 🤖 AI consultant helping teams apply ML/AI practically and responsibly
+
+---
+
+## 🛡️ IT & Cybersecurity Project Portfolio
+
+I'm passionate about cybersecurity and enjoy solving complex, real-world security challenges through hands-on projects.  
+My work spans vulnerability management, threat detection, and security operations—focused on practical impact, not theory.
+
+---
 
 ## ⚠️ Vulnerability Management Projects
 
-- **[Vulnerability Management Program Implementation](https://github.com/brianhannigan/vulnerability-management-program)**
-- **[Programmatic Vulnerability Remediations (PowerShell and BASH)](https://github.com/joshcybertest/programmatic-vulnerability-remediations)**
+- 🔍 **[Vulnerability Management Program Implementation](https://github.com/brianhannigan/vulnerability-management-program)**  
+  End-to-end vulnerability management workflow covering discovery, prioritization, remediation, and reporting.
 
-## 🚨 Threat Hunting and Security Operations
+- 🛠️ **[Programmatic Vulnerability Remediations (PowerShell & Bash)](https://github.com/brianhannigan/programmatic-vulnerability-remediations)**  
+  Automated remediation scripts for common security findings across Windows and Linux environments.
 
-- **[Threat Hunting Scenario (Tor Browser Usage)](https://github.com/brianhannigan/threat-hunting-scenario-tor)**
+---
 
-<hr/>
+## 🚨 Threat Hunting & Security Operations
 
-## 🤳 Connect With Me
+- 🕵️ **[Threat Hunting Scenario – TOR Browser Usage](https://github.com/brianhannigan/threat-hunting-scenario-tor)**  
+  Detection and investigation of anonymization tools within enterprise environments using realistic SOC workflows.
 
-[<img align="left" alt="___________ | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />][youtube]
-[<img align="left" alt="___________ | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
-[<img align="left" alt="___________ | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
-[<img align="left" alt="___________ | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
+---
 
-[twitter]: https://twitter.com/___________
-[youtube]: https://www.youtube.com/c/___________
-[instagram]: https://www.instagram.com/___________
-[linkedin]: https://linkedin.com/in/___________
+## 🤝 Connect With Me
 
-<!--
-<img width="35" alt="image" src="https://github.com/user-attachments/assets/2f41c7cd-5ea8-4475-b451-a37161b6c3fb"> 
-<img width="35" alt="image" src="https://github.com/user-attachments/assets/77649969-9910-4994-8b96-74a116cfb2a8">
--->
+- 💼 **LinkedIn:** https://www.linkedin.com/in/brianhannigan/
+- 🧠 **GitHub:** https://github.com/brianhannigan
 
-  
-
-<br><br><br>
-  <h2>✍️ Languages</h2>
+---
 
 
-<h2>🛠 Tech Stack and Tools</h2>
+## 📊 GitHub Activity & Stats
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=brianhannigan&theme=github-light&hide_border=true" alt="Brian Hannigan's Activity Graph" />
+</p>
+
+---
 
 
-
-
-![HTML](https://img.shields.io/badge/-HTML-E34F26?style=flat&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-C69D00?style=flat&logo=javascript&logoColor=white) ![TypeScript](https://img.shields.io/badge/-c%23-2f74c0?style=flat&logo=c%23&logoColor=white) ![CSS](https://img.shields.io/badge/-CSS-254bdd?style=flat&logo=css3) ![Python](https://img.shields.io/badge/-Python-2b5b83?style=flat&logo=python&logoColor=ffdf76)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=arvinxx&layout=compact&hide=javascript,css,html,jupyter%20notebook)
-| End                                                                  | Stack                                                                                                                                                                                                                                                                                                                       |
-| -------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Frontend](https://img.shields.io/badge/-Frontend-black?style=flat) | ![React](https://img.shields.io/badge/-React-52BAD7?style=flat&logo=react&logoColor=white) ![antd](https://img.shields.io/badge/-Ant_Design-0170fe?style=flat&logo=ant-design) ![Less](https://img.shields.io/badge/-Less-1d365d?style=flat&logo=less) ![umi](https://img.shields.io/badge/-umi-4569d4?style=flat&logo=umi) |
-| ![Backend](https://img.shields.io/badge/-Backend-black?style=flat)   | ![Node](https://img.shields.io/badge/-Node-white?style=flat&logo=node.js) ![Egg](https://img.shields.io/badge/-Egg.js-22ab28?style=flat) ![mongoDB](https://img.shields.io/badge/-mongoDB-white?style=flat&logo=mongodb)                                                                                                                                                                   |
-| ![Devops](https://img.shields.io/badge/-Devops-black?style=flat)     | ![GitHub Action][gitHub-action]  ![Nginx](https://img.shields.io/badge/-Nginx-CEF1D1?style=flat&logo=nginx)  ![Docker](https://img.shields.io/badge/-Docker-cbe3f2?style=flat&logo=docker)                                                                                                                                                                    |
-| ![IDE](https://img.shields.io/badge/-IDE-black?style=flat)           | ![WebStorm](https://img.shields.io/badge/-WebStorm-3a3a3a?style=flat&logo=webstorm) ![PyCharm](https://img.shields.io/badge/-PyCharm-3a3a3a?style=flat&logo=pycharm) ![Visual Studio Code](https://img.shields.io/badge/-VS_Code-007ACC?style=flat&logo=Visual-Studio-Code)                                                 |
-| ![Workflow](https://img.shields.io/badge/-Other-black?style=flat)           | ![Git](https://img.shields.io/badge/-Git-black?style=flat&logo=git) ![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat&logo=github)     [![Gitmoji][gitmoji]][gcw]                                                                                           |
-
-
-
-
-<hr>
-<hr>
-
-# Brian Hannigan
-InfraGard Member • [LinkedIn](https://www.linkedin.com/in/brianjhannigan)
-
-## Summary
-AI Consultant, Technical Trainer, and Software Engineer with extensive experience leading U.S. Government/DoD training, simulation, and secure systems initiatives. Creator of the **AI Consulting Playbook**, equipping executives with frameworks for workflow automation, value mapping, bias/risk assessments, and sector-specific strategies. Proven track record of designing immersive VR/AR classrooms, developing simulation ecosystems, and guiding organizations through AI readiness, adoption, and optimization. Experienced keynote speaker and advisor helping CEOs, CIOs, and innovation leaders align AI with mission readiness and measurable business value.
-
-## Core Competencies
-- **AI Consulting & Advisory**: Workflow Mapping, Value & Risk Assessments, AI Strategy, Bias & Risk Audits, Prompt Engineering, Executive Keynotes
-- **Instruction & Leadership**: Technical Training, Curriculum Development, Train-the-Trainer, Knowledge Transfer, Executive Briefings
-- **Classroom Integration**: VR/AR Simulation Environments, AV/Networking, Remote Instructor Systems, Hardware/Software Rollouts
-- **Training Systems Development**: Unity 3D, Unreal, Simulation Ecosystem Architecture, Instructor Operator Station (IOS)
-- **Security & Compliance**: DoD Secure Systems, DISA STIGs, Nessus Scanning, Secure Configuration Scripting
-- **Cross-Functional Strengths**: Stakeholder Briefings, Cost & Requirements Analysis, Vendor Management, Technical Documentation & SOPs
-- **Technical Stack**: C#, Python, Bash, SQL, .NET, ASP.NET, HTML/CSS, JavaScript, React, SharePoint, Docker, Git, VMware, IIS, SQL Server, SQLite, MySQL, Oracle, Windows/Linux
-
-## Professional Experience
-**UTRS, Inc — Lead Technical Instructor, Simulation Architect, and AI Advisor**  
-*Wharton, NJ • 2011–2025*  
-- Designed and deployed full training ecosystems for U.S. Army simulation classrooms, integrating VR/AR and immersive trainer platforms.  
-- Conceived and built the **Instructor Operator Station (IOS)**, enabling multi-instructor classroom monitoring, lesson sequencing, and student evaluation.  
-- Directed lifecycle rollout: requirements gathering, procurement, vendor coordination, system configuration, and training delivery.  
-- Installed and sustained classroom technology across U.S. and international sites, achieving near 100% uptime.  
-- Expanded into **AI Consulting**: delivered AI Readiness Assessments, Workflow Mapping Workshops, and Value Mapping sessions for executive teams.  
-- Trained teams on Data Preparation, Annotation, and Prompt Engineering; advised leadership on AI adoption roadmaps.  
-- Authored technical documentation, SOPs, and AI strategy briefing materials.  
-- Applied DISA STIGs, Nessus scans, and secure code reviews; eliminated compliance findings.
-
-**Other Experience**: Murray Media — Web Developer; Pantheon Global — SharePoint/.NET Consultant; SetFocus — Software Engineer; Technology & Special Education Teacher; Independent Consultant — Software Developer; G2X, Inc — Lead Software Engineer; Application Partners — Programmer Analyst  
-
-## Projects & Accomplishments
-- **AI Consulting Playbook**: Built internal frameworks for workflow automation, value mapping, bias/risk analysis, and sector-specific AI strategies.  
-- **Instructor Operator Station (IOS)**: First-of-its-kind multi-instructor classroom control platform deployed across Army and Marine programs.  
-- **VR/AR Simulation Training**: Integrated Unity-based training modules, improving comprehension, safety, and engagement.  
-- **Training Cost Optimization**: Standardized deployments, reducing costs across facilities.  
-- **Executive Workshops & Keynotes**: Delivered sessions on AI Strategy, Risk, and Sector Applications.
-
-## Education
-- M.Ed., Special Education — New Jersey City University  
-- Diploma, Programming — Chubb Institute  
-- B.S., Criminal Justice — University of Delaware  
-- Microsoft .NET Training: C#, .NET, T-SQL, Distributed Programming, Security  
-
-## Certifications & Credentials
-- CompTIA Security+ (Credly)  
-- Unreal Educator Accelerator  
-- Red Team Summit  
-- Hacking Humans: Social Engineering & Elicitation  
-- SOC Core Skills Training  
-- Active Defense & Cyber Deception Training  
-- InfraGard Member (FBI civilian liaison)  
-- QuickBooks Certified ProAdvisor  
-
-<hr>
-OLDER
-
-<!DOCTYPE html>
-<body>
-  <section>
-    <h2>TECHNICAL SKILLS</h2>
-    <ul>
-      <li><strong>Languages:</strong> C#, Python, Bash/Shell, SQL, JavaScript, HTML/CSS, VBA</li>
-      <li><strong>Frameworks:</strong> .NET Framework, ASP.NET, MOSS 2007, SiteCore, Ektron CMS</li>
-      <li><strong>Operating Systems:</strong> Windows, Linux/Unix (including OS/400, OS/390)</li>
-      <li><strong>Databases:</strong> SQLite, SQL Server, MySQL, Oracle</li>
-      <li><strong>Tools:</strong> Visual Studio, IIS, Git, MS Project, Lotus Notes/Domino, SharePoint</li>
-      <li><strong>Protocols:</strong> TCP/IP, SSL, SSH</li>
-      <li><strong>Specialties:</strong> CMS Development, Cybersecurity, Classroom Systems, Simulation & Training Frameworks</li>
-    </ul>
-  </section>
-  <section>
-    <h2>CERTIFICATIONS & TRAINING</h2>
-    <ul>
-      <li><a href="https://www.credly.com/badges/d2e93bb5-62cc-4fba-aa04-e8491f0af819/public_url">CompTIA Security+</a></li>
-      <li><a href="https://www.credly.com/users/brian-hannigan.caabc29f">Credly Profile</a></li>
-      <li><a href="https://www.credential.net/21ba8439-1041-400b-91b9-253e0077c203#acc.2VevMP9k">Hacking Humans: Social Engineering</a></li>
-      <li><a href="https://www.credential.net/5f3ffc82-5969-403a-84ce-2befeb583043#acc.qomuzGMn">Red Team Summit</a></li>
-      <li><a href="https://www.credential.net/fbd967d5-0fb8-4f9d-8b67-51faada4554d#acc.jnPNmRJF">Unreal Educator Accelerator</a></li>
-      <li>Active Defense & Cyber Deception (John Strand) – June 19, 2025 & July 18, 2024</li>
-      <li>Getting Started in Security w/ BHIS & MITRE ATT&CK – June 13, 2024</li>
-      <li>SOC Core Skills (John Strand) – May 23, 2024</li>
-      <li>Other: Ektron CMS, SiteCore, Brainbench .NET, Lotus Notes Admin/Dev, QuickBooks ProAdvisor</li>
-    </ul>
-  </section>
-    
-</body>
-</html>
+> 🔒 *Focused on building secure, resilient systems and training the next generation of engineers and defenders.*
