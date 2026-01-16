@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Brian Hannigan
+# 👋 Hi, I'm Brian,
 
 **Software Engineer | Cybersecurity Professional | AI Consultant & Strategist**
 
