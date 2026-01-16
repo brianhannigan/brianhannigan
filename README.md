@@ -116,3 +116,38 @@ AI Consultant, Technical Trainer, and Software Engineer with extensive experienc
 - Active Defense & Cyber Deception Training  
 - InfraGard Member (FBI civilian liaison)  
 - QuickBooks Certified ProAdvisor  
+
+<hr>
+OLDER
+
+<!DOCTYPE html>
+<body>
+  <section>
+    <h2>TECHNICAL SKILLS</h2>
+    <ul>
+      <li><strong>Languages:</strong> C#, Python, Bash/Shell, SQL, JavaScript, HTML/CSS, VBA</li>
+      <li><strong>Frameworks:</strong> .NET Framework, ASP.NET, MOSS 2007, SiteCore, Ektron CMS</li>
+      <li><strong>Operating Systems:</strong> Windows, Linux/Unix (including OS/400, OS/390)</li>
+      <li><strong>Databases:</strong> SQLite, SQL Server, MySQL, Oracle</li>
+      <li><strong>Tools:</strong> Visual Studio, IIS, Git, MS Project, Lotus Notes/Domino, SharePoint</li>
+      <li><strong>Protocols:</strong> TCP/IP, SSL, SSH</li>
+      <li><strong>Specialties:</strong> CMS Development, Cybersecurity, Classroom Systems, Simulation & Training Frameworks</li>
+    </ul>
+  </section>
+  <section>
+    <h2>CERTIFICATIONS & TRAINING</h2>
+    <ul>
+      <li><a href="https://www.credly.com/badges/d2e93bb5-62cc-4fba-aa04-e8491f0af819/public_url">CompTIA Security+</a></li>
+      <li><a href="https://www.credly.com/users/brian-hannigan.caabc29f">Credly Profile</a></li>
+      <li><a href="https://www.credential.net/21ba8439-1041-400b-91b9-253e0077c203#acc.2VevMP9k">Hacking Humans: Social Engineering</a></li>
+      <li><a href="https://www.credential.net/5f3ffc82-5969-403a-84ce-2befeb583043#acc.qomuzGMn">Red Team Summit</a></li>
+      <li><a href="https://www.credential.net/fbd967d5-0fb8-4f9d-8b67-51faada4554d#acc.jnPNmRJF">Unreal Educator Accelerator</a></li>
+      <li>Active Defense & Cyber Deception (John Strand) – June 19, 2025 & July 18, 2024</li>
+      <li>Getting Started in Security w/ BHIS & MITRE ATT&CK – June 13, 2024</li>
+      <li>SOC Core Skills (John Strand) – May 23, 2024</li>
+      <li>Other: Ektron CMS, SiteCore, Brainbench .NET, Lotus Notes Admin/Dev, QuickBooks ProAdvisor</li>
+    </ul>
+  </section>
+    
+</body>
+</html>
