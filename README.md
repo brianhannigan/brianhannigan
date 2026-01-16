@@ -7,8 +7,9 @@
 - 🤖 AI consultant helping teams apply ML/AI practically and responsibly
 
 ---
+## Project Portfolios
 
-## 🛡️ IT & Cybersecurity Project Portfolio
+## 🛡️ IT & Cybersecurity
 
 I'm passionate about cybersecurity and enjoy solving complex, real-world security challenges through hands-on projects.  
 My work spans vulnerability management, threat detection, and security operations—focused on practical impact, not theory.
@@ -31,6 +32,24 @@ My work spans vulnerability management, threat detection, and security operation
   Detection and investigation of anonymization tools within enterprise environments using realistic SOC workflows.
 
 ---
+
+## 🛡️ Software Development
+C#
+- ** Language Translator
+- ** Medical 3D Simulator
+- ** Screen Sender
+- **
+  
+Python
+- ** XML Parser
+  
+Powershell
+- ** Project Creator
+- 
+Full Stack React
+
+---
+
 
 ## 🤝 Connect With Me
 
