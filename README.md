@@ -14,6 +14,10 @@
 I'm passionate about cybersecurity and enjoy solving complex, real-world security challenges through hands-on projects.  
 My work spans vulnerability management, threat detection, and security operations—focused on practical impact, not theory.
 
+## 🔐 SOC / MSS Security Work (Highlights)
+
+I focus on practical, operations-ready security work: alert triage, vulnerability scanning, secure configuration, and clear client-facing reporting.
+
 ---
 
 ## ⚠️ Vulnerability Management Projects
@@ -49,7 +53,17 @@ Powershell
 Full Stack React
 
 ---
+### Core Skills
+- SOC Operations: alert triage, incident documentation, escalation workflows
+- Vulnerability Management: Nessus scanning, findings documentation, remediation tracking
+- Compliance & Hardening: DISA STIG-aligned secure configuration (Windows/Linux fundamentals)
+- Security Awareness: phishing/social engineering readiness, training & reporting
+- Tooling: Git, VMware, Docker, scripting (Python/PowerShell/Bash)
 
+### What I Deliver
+- Clean documentation (SOPs/runbooks) that makes security repeatable
+- Signal-over-noise mindset for tuning and validating alerts
+- Customer-ready status updates and summaries that drive action
 
 ## 🤝 Connect With Me
 
