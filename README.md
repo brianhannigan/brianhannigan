@@ -20,7 +20,7 @@ I focus on practical, operations-ready security work: alert triage, vulnerabilit
 
 ---
 
-## ⚠️ Vulnerability Management Projects
+## ⚠️ Vulnerability Management Projects -- COMING SOON
 
 - 🔍 **[Vulnerability Management Program Implementation](https://github.com/brianhannigan/vulnerability-management-program)**  
   End-to-end vulnerability management workflow covering discovery, prioritization, remediation, and reporting.
@@ -30,7 +30,7 @@ I focus on practical, operations-ready security work: alert triage, vulnerabilit
 
 ---
 
-## 🚨 Threat Hunting & Security Operations
+## 🚨 Threat Hunting & Security Operations -- COMING SOON
 
 - 🕵️ **[Threat Hunting Scenario – TOR Browser Usage](https://github.com/brianhannigan/threat-hunting-scenario-tor)**  
   Detection and investigation of anonymization tools within enterprise environments using realistic SOC workflows.
