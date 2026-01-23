@@ -20,7 +20,7 @@ I focus on practical, operations-ready security work: alert triage, vulnerabilit
 
 ---
 
-## ⚠️ Vulnerability Management Projects -- COMING SOON
+## ⚠️ Vulnerability Management Projects -- UPDATING
 
 - 🔍 **[Vulnerability Management Program Implementation](https://github.com/brianhannigan/vulnerability-management-program)**  
   End-to-end vulnerability management workflow covering discovery, prioritization, remediation, and reporting.
@@ -30,7 +30,7 @@ I focus on practical, operations-ready security work: alert triage, vulnerabilit
 
 ---
 
-## 🚨 Threat Hunting & Security Operations -- COMING SOON
+## 🚨 Threat Hunting & Security Operations -- UPDATING
 
 - 🐾🔐 **[Threat Hunting Scenario - CloutHaus](https://github.com/brianhannigan/KC7-CloutHaus)**  
    Phishing → Mailbox Compromise → Exfiltration (KQL Case Study)
