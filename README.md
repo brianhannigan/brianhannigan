@@ -50,7 +50,7 @@ I focus on practical, operations-ready security work: alert triage, vulnerabilit
 
 ## 🛡️ Software Development
 C#
-- **[Language Translator](https://github.com/brianhannigan/language-translator)**  
+- **[Language Translator](https://github.com/brianhannigan/translator)**  
   C# desktop translator application that converts text between languages through a simple UI.
 - ** Medical 3D Simulator
 - ** Screen Sender
