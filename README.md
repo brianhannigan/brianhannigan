@@ -38,6 +38,9 @@ I focus on practical, operations-ready security work: alert triage, vulnerabilit
 - 🕵️ **[Threat Hunting Scenario – TOR Browser Usage](https://github.com/brianhannigan/threat-hunting-scenario-tor)**  
   Detection and investigation of anonymization tools within enterprise environments using realistic SOC workflows.
 
+- 🤖 **[Automated Incident Tracking](https://github.com/brianhannigan/automated-incident-tracking)**  
+  Streamlined incident intake and tracking to support SOC reporting and response workflows.
+
 ---
 ##  Artificial Intelligence \ Machine Learning -- UPDATING
 
