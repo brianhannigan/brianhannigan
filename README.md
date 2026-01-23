@@ -22,10 +22,10 @@ I focus on practical, operations-ready security work: alert triage, vulnerabilit
 
 ## ⚠️ Vulnerability Management Projects -- UPDATING
 
-- 🔍 **[Vulnerability Management Program Implementation](https://github.com/brianhannigan/vulnerability-management-program111)**  
+- 🔍 **[Vulnerability Management Program Implementation]**  
   End-to-end vulnerability management workflow covering discovery, prioritization, remediation, and reporting.
 
-- 🛠️ **[Programmatic Vulnerability Remediations (PowerShell & Bash)](https://github.com/brianhannigan/programmatic-vulnerability-remediations111)**  
+- 🛠️ **[Programmatic Vulnerability Remediations (PowerShell & Bash)]**  
   Automated remediation scripts for common security findings across Windows and Linux environments.
 
 ---
@@ -35,7 +35,7 @@ I focus on practical, operations-ready security work: alert triage, vulnerabilit
 - 🐾🔐 **[Threat Hunting Scenario - CloutHaus](https://github.com/brianhannigan/KC7-CloutHaus)**  
    Phishing → Mailbox Compromise → Exfiltration (KQL Case Study)
   
-- 🕵️ **[Threat Hunting Scenario – TOR Browser Usage](https://github.com/brianhannigan/threat-hunting-scenario-tor111)**  
+- 🕵️ **[Threat Hunting Scenario – TOR Browser Usage]**  
   Detection and investigation of anonymization tools within enterprise environments using realistic SOC workflows.
 
 - 🤖 **[Automated Incident Tracking](https://github.com/brianhannigan/automated-incident-tracking)**  
