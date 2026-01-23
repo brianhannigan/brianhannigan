@@ -39,6 +39,11 @@ I focus on practical, operations-ready security work: alert triage, vulnerabilit
   Detection and investigation of anonymization tools within enterprise environments using realistic SOC workflows.
 
 ---
+##  Artificial Intelligence \ Machine Learning -- UPDATING
+
+- **[Lightweight Finetuning Foundation Models](https://github.com/brianhannigan/LightweightFinetuningFoundationalModel)** 
+
+  Apply parameter-efficient fine-tuning (PEFT) to adapt a pretrained Hugging Face model for a text classification task, then compare baseline and fine-tuned performance. 
 
 ## 🛡️ Software Development
 C#
