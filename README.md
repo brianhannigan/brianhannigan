@@ -32,6 +32,9 @@ I focus on practical, operations-ready security work: alert triage, vulnerabilit
 
 ## 🚨 Threat Hunting & Security Operations -- COMING SOON
 
+- 🐾🔐 **[Threat Hunting Scenario - CloutHaus](https://github.com/brianhannigan/KC7-CloutHaus)**
+   Phishing → Mailbox Compromise → Exfiltration (KQL Case Study)
+  
 - 🕵️ **[Threat Hunting Scenario – TOR Browser Usage](https://github.com/brianhannigan/threat-hunting-scenario-tor)**  
   Detection and investigation of anonymization tools within enterprise environments using realistic SOC workflows.
 
