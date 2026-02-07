@@ -59,6 +59,7 @@ C#
   
 Python
 - ** XML Parser
+- ** [UpWork Auto-Scraper & AI Proposal Generator](https://github.com/brianhannigan/brianhannigan/blob/master/Readme-UpWorkScraper)**
   
 Powershell
 - ** Project Creator
