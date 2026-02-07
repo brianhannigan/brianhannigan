@@ -1,0 +1,159 @@
+# UpWork Auto-Scraper & AI Proposal Generator
+
+A **portfolio-grade** example of an *agentic* workflow that turns a job-search query into a structured shortlist and a draft proposal—using **deterministic orchestration**, **tool boundaries**, and **auditable outputs**.
+
+> ⚠️ Note on Compliance: Upwork has Terms of Service and anti-automation rules. This repository is meant to demonstrate **agentic system design** and safe automation patterns. Use only with explicit permission and in compliance with Upwork + any third-party provider terms.
+
+---
+
+## What this project demonstrates (portfolio highlights)
+
+- **3-layer agent architecture** (Directives → Orchestration → Execution)
+- **Tool-first design**: LLM generates *draft text*; code does the scraping, filtering, and I/O
+- **Deterministic artifacts**: CSV outputs, structured logs, reproducible runs
+- **Security hygiene**: environment-based secrets, `.env.example`, `.gitignore`, and documented OAuth handling
+
+---
+
+## Architecture
+
+### 3-Layer pattern
+
+1. **Directives (SOPs)** — `directives/`  
+   Human-readable playbooks that define goals, inputs, steps, outputs, and edge cases.
+
+2. **Orchestration (routing / decisions)**  
+   The “agent brain” that reads directives and calls execution tools in the right order.
+
+3. **Execution (deterministic tools)** — `execution/`  
+   Python scripts that perform the real work:
+   - scrape jobs (Apify actor)
+   - filter jobs
+   - generate proposal drafts (OpenAI)
+   - optionally create Google Docs + log to Google Sheets
+
+---
+
+## Repo layout
+
+```
+UpWork_Scraper/
+  directives/
+    scrape_upwork.md
+    upwork_scrape_apply.md
+  execution/
+    scrape_upwork.py
+    upwork_apify_scraper.py
+    upwork_proposal_generator.py
+  SECURITY_REPORT.md
+  requirements.txt
+  .env.example
+  .gitignore
+```
+
+---
+
+## Quick start (local)
+
+### 1) Create and activate a virtual environment
+
+```bash
+python -m venv .venv
+# Windows:
+.venv\Scripts\activate
+# macOS/Linux:
+source .venv/bin/activate
+```
+
+### 2) Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3) Add configuration
+
+```bash
+cp .env.example .env
+# then edit .env
+```
+
+**Do not commit** `.env`, `credentials.json`, or `token.json`.
+
+---
+
+## Run: scrape jobs
+
+### Option A — Mock mode (no Apify token)
+
+Mock mode lets you demo the pipeline without external credentials.
+
+```bash
+python execution/scrape_upwork.py --keywords "Python Developer"
+```
+
+Output will be written to `.tmp/` as a timestamped CSV.
+
+### Option B — Apify mode (real scrape)
+
+1) Put your Apify token in `.env`:
+
+```
+APIFY_TOKEN=...
+```
+
+2) Run:
+
+```bash
+python execution/upwork_apify_scraper.py --keywords "Python Developer" --limit 50 --days 7
+```
+
+---
+
+## Run: generate proposal drafts
+
+This tool reads a CSV of jobs, calls an LLM to draft proposals, and can optionally log results to Google Docs/Sheets.
+
+```bash
+python execution/upwork_proposal_generator.py --input path/to/scraped_jobs.csv
+```
+
+### Google Docs/Sheets (optional)
+
+If you want the Google integration:
+
+- Create a Google Cloud OAuth Client and download `credentials.json`
+- Place it next to the script (or adjust paths)
+- The first run will generate `token.json` after you authenticate
+
+Both files are intentionally **gitignored**.
+
+---
+
+## Security notes
+
+- Secrets are **never** hardcoded
+- `.env` + OAuth tokens are excluded via `.gitignore`
+- Treat job descriptions as **untrusted input** (prompt-injection and data poisoning risks)
+- Prefer running proposal generation with:
+  - limited concurrency
+  - strict output schemas
+  - logging and review before sending anything externally
+
+See: `SECURITY_REPORT.md`.
+
+---
+
+## Roadmap ideas (if you want to extend this)
+
+- Add a **schema-first** pipeline (Pydantic) for job objects + proposal objects
+- Add a **verifier step** (rule checks + LLM critique) before saving outputs
+- Add **unit tests** with mocked OpenAI + Apify clients
+- Add a **rate-limit governor** and retry policy with backoff + jitter
+- Add a **policy layer** for platform ToS constraints (allow/deny rules)
+
+---
+
+## Disclaimer
+
+This project is for educational/portfolio purposes. You are responsible for complying with Upwork policies, Apify terms, OpenAI terms, and any relevant laws and contracts.
