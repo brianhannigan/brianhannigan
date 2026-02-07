@@ -1,0 +1,14 @@
+{
+  "url": "https://example.com/summer-camp-registration",
+  "selectors": {
+    "child_first_name": "#childFirstName",
+    "child_last_name": "#childLastName",
+    "parent_name": "#parentName",
+    "session_checkbox_template": "#session-{session}",
+    "card_number": "#creditCardNumber",
+    "card_expiration": "#creditCardExpiration",
+    "card_cvv": "#creditCardCvv",
+    "billing_zip": "#billingZip",
+    "submit_button": "button[type='submit']"
+  }
+}
