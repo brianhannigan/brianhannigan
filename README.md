@@ -41,6 +41,11 @@ I focus on practical, operations-ready security work: alert triage, vulnerabilit
 - 🤖 **[Automated Incident Tracking](https://github.com/brianhannigan/automated-incident-tracking)**  
   Streamlined incident intake and tracking to support SOC reporting and response workflows.
 
+- 🕵️ **[SOC Agent Lab](https://github.com/brianhannigan/soc-agent-lab)**  
+  Autonomous AI agents for SOC alert triage, detection engineering, and log intelligence.
+
+  
+
 ---
 ##  Artificial Intelligence \ Machine Learning -- UPDATING
 
