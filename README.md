@@ -92,3 +92,11 @@ Full Stack React
 ---
 
 > 🔒 *Focused on building secure, resilient systems and training the next generation of engineers and defenders.*
+
+
+Focused Areas:
+• SIEM Engineering & Log Analysis
+• Infrastructure Observability
+• Secure Configuration (STIG/Nessus)
+• Security Automation (Python/Bash)
+• Threat Detection Workflows
