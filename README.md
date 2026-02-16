@@ -9,12 +9,6 @@
 ---
 ## Project Portfolios
 
-## 📝 Recent README Updates
-
-- **Professional headline refreshed** to better reflect current roles in software engineering, cybersecurity, and AI consulting.
-- **Focused Areas section updated** to highlight SIEM engineering, observability, secure configuration, and security automation priorities.
-- **SOC Agent Lab added** under Threat Hunting & Security Operations with a link to the project repository.
-
 ## 🛡️ IT & Cybersecurity
 
 I'm passionate about cybersecurity and enjoy solving complex, real-world security challenges through hands-on projects.  
