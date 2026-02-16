@@ -44,6 +44,15 @@ I focus on practical, operations-ready security work: alert triage, vulnerabilit
 - 🕵️ **[SOC Agent Lab](https://github.com/brianhannigan/soc-agent-lab)**  
   Autonomous AI agents for SOC alert triage, detection engineering, and log intelligence.
 
+- 📊 **[SIEM Engineering Lab](https://github.com/brianhannigan/siem-engineering-lab#readme)**  
+  Detection engineering and log-analysis workflows for practical SOC operations.
+
+- 🛰️ **[Secure Infrastructure Observability Lab](https://github.com/brianhannigan/secure-infrastructure-observability#readme)**  
+  Security-focused observability pipelines for resilient and monitorable infrastructure.
+
+- ✅ **[Compliance Automation Toolkit Lab](https://github.com/brianhannigan/compliance-automation-toolkit#readme)**  
+  Automation-driven compliance checks and reporting to reduce manual security overhead.
+
   
 
 ---
