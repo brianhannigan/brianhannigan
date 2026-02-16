@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Brian,
 
-**Software Engineer | Cybersecurity Professional | AI Consultant & Strategist | Cybersecurity Systems Engineer | Secure Infrastructure | SIEM Engineering | Automation | Python | Windows & Linux | Security+**
+**Software Engineer | Cybersecurity Professional | AI Consultant & Strategist **
 
 - 💻 Software Engineer with 20+ years in complex systems
 - 🔐 Cybersecurity professional focused on vulnerability management, threat hunting, and secure systems
