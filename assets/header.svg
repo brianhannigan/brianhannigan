@@ -38,7 +38,7 @@
       </feMerge>
     </filter>
 
-    <!-- Soft panel glow (kept subtle for sharpness) -->
+    <!-- Soft panel glow -->
     <filter id="panelGlow" x="-40%" y="-80%" width="180%" height="260%">
       <feGaussianBlur stdDeviation="3.2" result="blur"/>
       <feColorMatrix in="blur" type="matrix"
@@ -73,7 +73,7 @@
   <!-- Background -->
   <rect width="1400" height="360" fill="url(#bg)"/>
 
-  <!-- Ambient blobs (slightly reduced to keep crisp) -->
+  <!-- Ambient blobs -->
   <g opacity="0.55">
     <circle cx="160" cy="92" r="140" fill="#67b8ff" opacity="0.07">
       <animate attributeName="cx" values="150;200;150" dur="12s" repeatCount="indefinite"/>
@@ -91,11 +91,10 @@
 
   <!-- Title panel -->
   <g clip-path="url(#panelClip)" filter="url(#panelGlow)">
-    <!-- Dark glass panel -->
-    <rect x="36" y="56" width="1388" height="236" rx="18" ry="18" fill="#0b1220" opacity="0.70"/>
-    <rect x="36" y="56" width="1388" height="236" rx="18" ry="18" fill="none" stroke="url(#accent)" stroke-width="2.2" opacity="0.85"/>
+    <rect x="36" y="56" width="1328" height="236" rx="18" ry="18" fill="#0b1220" opacity="0.70"/>
+    <rect x="36" y="56" width="1328" height="236" rx="18" ry="18" fill="none" stroke="url(#accent)" stroke-width="2.2" opacity="0.85"/>
 
-    <!-- Subtle grid (crisper + lower opacity) -->
+    <!-- Subtle grid -->
     <g opacity="0.10">
       <path d="M0 110 H1400 M0 156 H1400 M0 202 H1400 M0 248 H1400 M0 294 H1400" stroke="#67b8ff" stroke-width="1"/>
       <path d="M160 0 V360 M260 0 V360 M360 0 V360 M460 0 V360 M560 0 V360 M660 0 V360 M760 0 V360 M860 0 V360 M960 0 V360 M1060 0 V360 M1160 0 V360 M1260 0 V360" stroke="#8be9a8" stroke-width="1"/>
@@ -135,7 +134,7 @@
     </g>
   </g>
 
-  <!-- Main title text (sharper: higher contrast, smaller blur) -->
+  <!-- Main title text -->
   <g filter="url(#textShadow)">
     <text x="90" y="150"
           font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial"
@@ -157,30 +156,35 @@
     </text>
   </g>
 
-  <!-- Right-side status chips (sharper strokes + slightly larger) -->
-  <g transform="translate(840, 122)" opacity="0.97" filter="url(#textShadow)">
-    <g>
-      <rect x="0" y="0" width="520" height="44" rx="12" fill="#0b1220" opacity="0.78" stroke="url(#accent)" stroke-width="1.6"/>
-      <circle cx="24" cy="22" r="6.2" fill="#8be9a8">
-        <animate attributeName="r" values="5.6;6.8;5.6" dur="1.6s" repeatCount="indefinite"/>
-      </circle>
-      <text x="46" y="28"
-            font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial"
-            font-size="13.2" font-weight="800" fill="#f4f7ff">
-        Building: Offline AI Translator + 3D Visualization Portfolio
-      </text>
-    </g>
+  <!-- Right-side status chips (RIGHT-ANCHORED so they never overflow) -->
+  <!-- SVG width = 1400; right padding = 44; chip width = 440; x = 1400 - 44 - 440 = 916 -->
+  <g opacity="0.97" filter="url(#textShadow)">
+    <g transform="translate(916, 122)">
+      <g>
+        <rect x="0" y="0" width="440" height="44" rx="12" fill="#0b1220" opacity="0.78"
+              stroke="url(#accent)" stroke-width="1.6"/>
+        <circle cx="24" cy="22" r="6.2" fill="#8be9a8">
+          <animate attributeName="r" values="5.6;6.8;5.6" dur="1.6s" repeatCount="indefinite"/>
+        </circle>
+        <text x="48" y="28"
+              font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial"
+              font-size="13.2" font-weight="800" fill="#f4f7ff">
+          Building: Offline AI Translator + 3D Visualization
+        </text>
+      </g>
 
-    <g transform="translate(0, 58)">
-      <rect x="0" y="0" width="445" height="44" rx="12" fill="#0b1220" opacity="0.72" stroke="#67b8ff" stroke-opacity="0.72" stroke-width="1.6"/>
-      <circle cx="24" cy="22" r="6.2" fill="#67b8ff" opacity="0.95">
-        <animate attributeName="opacity" values="0.65;1;0.65" dur="2s" repeatCount="indefinite"/>
-      </circle>
-      <text x="46" y="28"
-            font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial"
-            font-size="14.2" font-weight="800" fill="#f4f7ff">
-        Focus: Security • Compliance • AI Orchestration
-      </text>
+      <g transform="translate(0, 58)">
+        <rect x="0" y="0" width="440" height="44" rx="12" fill="#0b1220" opacity="0.72"
+              stroke="#67b8ff" stroke-opacity="0.72" stroke-width="1.6"/>
+        <circle cx="24" cy="22" r="6.2" fill="#67b8ff" opacity="0.95">
+          <animate attributeName="opacity" values="0.65;1;0.65" dur="2s" repeatCount="indefinite"/>
+        </circle>
+        <text x="48" y="28"
+              font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial"
+              font-size="13.2" font-weight="800" fill="#f4f7ff">
+          Focus: Security • Compliance • AI Orchestration
+        </text>
+      </g>
     </g>
   </g>
 
