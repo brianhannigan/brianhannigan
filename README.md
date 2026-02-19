@@ -1,3 +1,5 @@
+![Brian Hannigan — Animated Header](./assets/header.svg)
+
 # 🚀 Brian Hannigan  
 ### Software Architect | Cybersecurity Engineer | AI Systems Builder  
 ---
