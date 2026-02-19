@@ -67,7 +67,184 @@ My work spans vulnerability management, threat detection, and security operation
 🔗 Example Repository:  
 https://github.com/brianhannigan/kql-threathunting-beginner-guide
 
+
 ---
+
+### 🔹 Vulnerability & Compliance Engineering
+- Nessus scanning  
+- DISA STIG remediation  
+- Patch validation  
+- Secure configuration baselines  
+- Risk tracking & documentation  
+
+---
+
+## 🧱 Infrastructure & Systems Engineering
+
+- Docker-based service orchestration  
+- QEMU + Ubuntu VM automation  
+- Offline deployment packaging  
+- Embedded Python distribution  
+- Windows service wrappers  
+- Local API hosting  
+- Structured logging systems  
+
+---
+
+# 🏗 Architecture Philosophy
+
+I design systems using layered separation of concerns:
+
+```
+User Interface Layer
+        ↓
+Application Logic Layer
+        ↓
+Service Orchestration Layer
+        ↓
+Isolated Engine Layer
+        ↓
+Secure Local or Remote Models
+```
+
+### Core Principles
+
+✔ Offline-first when possible  
+✔ Zero-trust boundaries  
+✔ Clear separation of concerns  
+✔ Reproducible deployment  
+✔ Deterministic startup & logging  
+✔ Secure configuration management  
+
+---
+
+# 🎬 Product-Style Engineering
+
+Each major repository is structured like a **product launch**, not just a code dump.
+
+Includes:
+
+- Animated SVG workflows  
+- UI state transitions  
+- Before/after visual demos  
+- Architecture diagrams  
+- Installation walkthroughs  
+- Clean documentation hierarchy  
+
+My goal is not just to build software —  
+but to build **deployable systems with clarity and confidence.**
+
+---
+
+# 📊 Technical Stack
+
+## Languages
+- C#  
+- Python  
+- JavaScript / TypeScript  
+- PowerShell  
+- SQL  
+
+## Frameworks & Platforms
+- .NET / WPF  
+- HelixToolkit  
+- Three.js  
+- Docker  
+- Argos Translate  
+- Marian NMT  
+- Tesseract OCR  
+- QEMU  
+- GitHub Actions  
+
+---
+
+# 🧩 Current Focus Areas
+
+- Advanced AI model orchestration  
+- Self-contained deployable systems  
+- Offline enterprise AI tooling  
+- Intelligent threat analysis  
+- 3D visualization engines  
+- Zero-trust application design  
+- Hybrid desktop + web architectures  
+
+---
+
+# 🏛 Professional Background
+
+- 14+ years supporting Government projects  
+- Mission-critical system development  
+- Secure enterprise deployments  
+- Cybersecurity engineering  
+- Technical architecture & leadership  
+- AI-powered application design  
+
+---
+
+# 🤝 Connect
+
+LinkedIn: https://linkedin.com/in/brianjhannigan  
+GitHub: https://github.com/brianhannigan  
+
+---
+
+# 📌 What This Profile Represents
+
+This is not a collection of school projects.
+
+This is a working laboratory of:
+
+- Deployable AI systems  
+- Production-grade architectures  
+- Secure engineering practices  
+- Real-world infrastructure tooling  
+- Advanced visualization engines  
+
+I build systems that are:
+
+**Secure. Intelligent. Deployable.**
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## 🔐 SOC / MSS Security Work (Highlights)
 I focus on practical, operations-ready security work: alert triage, vulnerability scanning, secure configuration, and clear client-facing reporting.
 
