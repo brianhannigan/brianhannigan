@@ -2,7 +2,7 @@
 <svg width="1400" height="560" viewBox="0 0 1400 560"
      xmlns="http://www.w3.org/2000/svg" role="img"
      aria-label="Product architecture with cybersecurity pillar and bidirectional pulses"
-     shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+     shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality">
 
   <defs>
     <!-- Background -->
