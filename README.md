@@ -6,14 +6,13 @@
   <img src="assets/architecture-cyberpillar-pulses-bidir.svg" width="100%" />
 </p>
 ---
-<!-- ===== Project Card Grid (Hero Tiles) ===== -->
 <h2 align="center">⚡ Flagship Projects</h2>
 
 <p align="center">
   <sub>Product-style repositories with demos, architecture, and deployable workflows.</sub>
 </p>
 
-<table>
+<table width="100%">
   <tr>
     <!-- Translator -->
     <td width="50%" valign="top">
@@ -76,24 +75,9 @@
         <li>Nessus / vulnerability scanning methodology</li>
         <li>Patch validation + reporting</li>
       </ul>
-      <p>
-        <i>Link your compliance repo here (or keep as a category section)</i>
-      </p>
     </td>
   </tr>
 </table>
-
-<hr/>
-
-<h2 align="center">🧭 What I Build</h2>
-
-<p align="center">
-  <b>Secure, offline-first systems</b> that combine <b>AI engines</b>, <b>cybersecurity engineering</b>, and <b>deployable architectures</b>.
-</p>
-
-<p align="center">
-  <a href="https://github.com/brianhannigan?tab=repositories"><b>Browse All Repositories →</b></a>
-</p>
 
 ---
 ## 🔥 Mission
