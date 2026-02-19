@@ -2,6 +2,10 @@
 <p align="center">
   <img src="assets/architecture.svg" alt="Architecture Map" width="100%" />
 </p>
+<p align="center">
+  <img src="assets/architecture-product.svg" width="100%" />
+</p>
+
 
 ---
 ## 🔥 Mission
