@@ -5,7 +5,95 @@
 <p align="center">
   <img src="assets/architecture-cyberpillar-pulses-bidir.svg" width="100%" />
 </p>
+---
+<!-- ===== Project Card Grid (Hero Tiles) ===== -->
+<h2 align="center">⚡ Flagship Projects</h2>
 
+<p align="center">
+  <sub>Product-style repositories with demos, architecture, and deployable workflows.</sub>
+</p>
+
+<table>
+  <tr>
+    <!-- Translator -->
+    <td width="50%" valign="top">
+      <h3>🧠 Portable Translator (Offline AI)</h3>
+      <p>
+        Self-contained OCR + offline translation engine built for field use and disconnected environments.
+      </p>
+      <ul>
+        <li>WPF UI + embedded Python orchestration</li>
+        <li>Tesseract OCR + Argos / Marian NMT</li>
+        <li>Local APIs, health checks, PID management, audit logging</li>
+      </ul>
+      <p>
+        <a href="https://github.com/brianhannigan/translator"><b>View Repo →</b></a>
+      </p>
+    </td>
+
+    <!-- SurgicalVisualization -->
+    <td width="50%" valign="top">
+      <h3>🧬 SurgicalVisualization (3D Medical)</h3>
+      <p>
+        3D model inspection platform for surgical / medical STL/OBJ workflows with desktop + web engines.
+      </p>
+      <ul>
+        <li>WPF + HelixToolkit for desktop rendering</li>
+        <li>Three.js browser engine for web-based inspection</li>
+        <li>Mesh inspection, camera controls, visualization tools</li>
+      </ul>
+      <p>
+        <a href="https://github.com/brianhannigan/SurgicalVisualization"><b>View Repo →</b></a>
+      </p>
+    </td>
+  </tr>
+
+  <tr>
+    <!-- Threat Hunting -->
+    <td width="50%" valign="top">
+      <h3>🛡 Threat Hunting (KQL / SIEM)</h3>
+      <p>
+        Practical threat-hunting playbooks and detection engineering workflows for SOC-style investigations.
+      </p>
+      <ul>
+        <li>KQL investigations & correlations</li>
+        <li>Attack chain reasoning & hypotheses</li>
+        <li>Documentation-first, repeatable hunts</li>
+      </ul>
+      <p>
+        <a href="https://github.com/brianhannigan/kql-threathunting-beginner-guide"><b>View Repo →</b></a>
+      </p>
+    </td>
+
+    <!-- Compliance / Hardening -->
+    <td width="50%" valign="top">
+      <h3>📋 Compliance + Hardening (STIG / VM)</h3>
+      <p>
+        Security engineering focused on secure baselines, vulnerability management, and audit-ready evidence.
+      </p>
+      <ul>
+        <li>DISA STIG alignment & remediation workflows</li>
+        <li>Nessus / vulnerability scanning methodology</li>
+        <li>Patch validation + reporting</li>
+      </ul>
+      <p>
+        <i>Link your compliance repo here (or keep as a category section)</i>
+      </p>
+    </td>
+  </tr>
+</table>
+
+<hr/>
+
+<h2 align="center">🧭 What I Build</h2>
+
+<p align="center">
+  <b>Secure, offline-first systems</b> that combine <b>AI engines</b>, <b>cybersecurity engineering</b>, and <b>deployable architectures</b>.
+</p>
+
+<p align="center">
+  <a href="https://github.com/brianhannigan?tab=repositories"><b>Browse All Repositories →</b></a>
+</p>
 
 ---
 ## 🔥 Mission
