@@ -64,17 +64,17 @@
       <p><a href="https://github.com/brianhannigan/kql-threathunting-beginner-guide"><strong>View repository →</strong></a></p>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/brianhannigan">
-        <img src="assets/architecture.svg" alt="Compliance and hardening background" width="100%" />
+      <a href="https://github.com/brianhannigan/soc-investigation-azuki-import-export">
+        <img src="https://opengraph.githubassets.com/main/brianhannigan/soc-investigation-azuki-import-export" alt="SOC Azuki import/export project banner" width="100%" />
       </a>
-      <h3>📋 Compliance + Hardening (STIG / VM)</h3>
-      <p>Security engineering focused on secure baselines, vulnerability management, and audit-ready evidence.</p>
+      <h3>🍵 SOC Investigation Azuki (Import/Export)</h3>
+      <p>Hands-on SOC investigation workflows for importing and exporting case data with practical triage and analysis patterns.</p>
       <ul>
-        <li>DISA STIG alignment &amp; remediation workflows</li>
-        <li>Nessus / vulnerability scanning methodology</li>
-        <li>Patch validation + reporting</li>
+        <li>SOC case import/export investigation workflow</li>
+        <li>Analyst-oriented triage and data handling patterns</li>
+        <li>Documentation-first approach for repeatable operations</li>
       </ul>
-      <p><a href="https://github.com/brianhannigan"><strong>Explore related work →</strong></a></p>
+      <p><a href="https://github.com/brianhannigan/soc-investigation-azuki-import-export"><strong>View repository →</strong></a></p>
     </td>
   </tr>
 </table>
