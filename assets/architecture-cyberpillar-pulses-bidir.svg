@@ -83,16 +83,33 @@
   <rect width="1400" height="560" fill="url(#bg)"/>
 
   <!-- Title -->
-  <g filter="url(#shadow)">
-    <text x="60" y="80" font-family="system-ui, Segoe UI, Roboto, Arial"
-          font-size="28" font-weight="900" fill="#f4f7ff">
+  <!-- Title (sharpened, no blur filter) -->
+  <g>
+    <text x="60" y="80"
+          font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial"
+          font-size="30"
+          font-weight="900"
+          fill="#f4f7ff"
+          text-rendering="geometricPrecision"
+          paint-order="stroke"
+          stroke="rgba(0,0,0,0.55)"
+          stroke-width="0.8">
       Product Architecture View
     </text>
-    <text x="60" y="110" font-family="system-ui, Segoe UI, Roboto, Arial"
-          font-size="15" font-weight="600" fill="#d2dbee">
+
+    <text x="60" y="112"
+          font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial"
+          font-size="15.5"
+          font-weight="700"
+          fill="#d2dbee"
+          text-rendering="geometricPrecision"
+          paint-order="stroke"
+          stroke="rgba(0,0,0,0.45)"
+          stroke-width="0.6">
       Bidirectional flow + Cybersecurity domain pillar
     </text>
   </g>
+
 
   <!-- Cybersecurity Pillar -->
   <g filter="url(#glow)">
