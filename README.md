@@ -136,7 +136,8 @@ My work spans vulnerability management, threat detection, and security operation
 
 
 ***3D medical visualization and simulation project focused on surgical anatomy exploration and training.***
-<img width="1591" height="719" alt="image" src="https://github.com/user-attachments/assets/a0da70ff-fc3c-427c-bfd9-ecddce0b5789" />
+<img width="1580" height="729" alt="image" src="https://github.com/user-attachments/assets/9f14ef32-536d-4c17-8e8b-0661b75b0918" />
+
   ---
 
 ## 🛡 Cybersecurity & Intelligence Engineering
