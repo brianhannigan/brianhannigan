@@ -92,8 +92,8 @@
   <!-- Title panel -->
   <g clip-path="url(#panelClip)" filter="url(#panelGlow)">
     <!-- Dark glass panel -->
-    <rect x="36" y="56" width="1328" height="236" rx="18" ry="18" fill="#0b1220" opacity="0.70"/>
-    <rect x="36" y="56" width="1328" height="236" rx="18" ry="18" fill="none" stroke="url(#accent)" stroke-width="2.2" opacity="0.85"/>
+    <rect x="36" y="56" width="1388" height="236" rx="18" ry="18" fill="#0b1220" opacity="0.70"/>
+    <rect x="36" y="56" width="1388" height="236" rx="18" ry="18" fill="none" stroke="url(#accent)" stroke-width="2.2" opacity="0.85"/>
 
     <!-- Subtle grid (crisper + lower opacity) -->
     <g opacity="0.10">
