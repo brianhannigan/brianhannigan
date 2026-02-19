@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1400" height="560" viewBox="0 0 1400 560"
+     xmlns="http://www.w3.org/2000/svg" role="img"
+     aria-label="Product architecture with cybersecurity pillar and bidirectional pulses"
+     shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+
+  <defs>
+    <!-- Background -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="560" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#040a14"/>
+      <stop offset="0.52" stop-color="#081633"/>
+      <stop offset="1" stop-color="#041022"/>
+      <animate attributeName="x1" values="0;1400;0" dur="24s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1400;0;1400" dur="24s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <!-- Accent gradient -->
+    <linearGradient id="accent" x1="0" y1="0" x2="1400" y2="0">
+      <stop offset="0" stop-color="#67b8ff"/>
+      <stop offset="0.5" stop-color="#8be9a8"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+      <animate attributeName="x1" values="0;1400;0" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1400;0;1400" dur="10s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <!-- Card fill -->
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b1220" stop-opacity="0.82"/>
+      <stop offset="1" stop-color="#0b1220" stop-opacity="0.65"/>
+    </linearGradient>
+
+    <!-- Glow -->
+    <filter id="glow" x="-40%" y="-80%" width="180%" height="260%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feColorMatrix in="b" type="matrix"
+        values="1 0 0 0 0
+                0 1 0 0 0
+                0 0 1 0 0
+                0 0 0 0.26 0" result="g"/>
+      <feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <!-- Text shadow -->
+    <filter id="shadow" x="-30%" y="-80%" width="160%" height="260%">
+      <feGaussianBlur stdDeviation="1.2" result="b"/>
+      <feOffset in="b" dx="0" dy="2"/>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <!-- Connector glow -->
+    <filter id="lineGlow" x="-40%" y="-80%" width="180%" height="260%">
+      <feGaussianBlur stdDeviation="2.2" result="b"/>
+      <feColorMatrix in="b" type="matrix"
+        values="1 0 0 0 0
+                0 1 0 0 0
+                0 0 1 0 0
+                0 0 0 0.35 0" result="g"/>
+      <feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <!-- Vignette -->
+    <radialGradient id="vig" cx="50%" cy="45%" r="75%">
+      <stop offset="0" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.6"/>
+    </radialGradient>
+
+    <!-- Motion paths -->
+    <!-- Pillar -> Translator -->
+    <path id="p_pill_to_trans" d="M320 240 C335 240 345 240 360 240"/>
+    <!-- Pillar -> Surgical -->
+    <path id="p_pill_to_surg" d="M320 405 C335 405 345 405 360 405"/>
+
+    <!-- Translator -> Orchestration -->
+    <path id="p_trans_to_orch" d="M740 240 C790 240 820 270 860 270"/>
+    <!-- Surgical -> Orchestration -->
+    <path id="p_surg_to_orch" d="M740 405 C790 405 820 330 860 330"/>
+
+    <!-- Orchestration -> Security strip (subtle) -->
+    <path id="p_orch_to_sec" d="M1090 390 C1090 430 1090 452 1090 490"/>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1400" height="560" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <g filter="url(#shadow)">
+    <text x="60" y="80" font-family="system-ui, Segoe UI, Roboto, Arial"
+          font-size="28" font-weight="900" fill="#f4f7ff">
+      Product Architecture View
+    </text>
+    <text x="60" y="110" font-family="system-ui, Segoe UI, Roboto, Arial"
+          font-size="15" font-weight="600" fill="#d2dbee">
+      Bidirectional flow + Cybersecurity domain pillar
+    </text>
+  </g>
+
+  <!-- Cybersecurity Pillar -->
+  <g filter="url(#glow)">
+    <rect x="60" y="150" width="260" height="330" rx="18" fill="url(#card)" stroke="url(#accent)" stroke-width="2.2"/>
+    <text x="88" y="195" font-family="system-ui" font-size="18" font-weight="900" fill="#8be9a8">Cybersecurity</text>
+
+    <text x="88" y="226" font-family="system-ui" font-size="14" font-weight="700" fill="#e6eefc">• STIG / Hardening</text>
+    <text x="88" y="250" font-family="system-ui" font-size="14" font-weight="700" fill="#e6eefc">• Vulnerability Mgmt</text>
+    <text x="88" y="274" font-family="system-ui" font-size="14" font-weight="700" fill="#e6eefc">• Threat Hunting</text>
+    <text x="88" y="298" font-family="system-ui" font-size="14" font-weight="700" fill="#e6eefc">• Detection Eng</text>
+    <text x="88" y="322" font-family="system-ui" font-size="14" font-weight="700" fill="#e6eefc">• Audit Evidence</text>
+
+    <rect x="88" y="350" width="204" height="34" rx="12" fill="#0b1220" opacity="0.75" stroke="#67b8ff" stroke-opacity="0.7" stroke-width="1.4"/>
+    <text x="104" y="372" font-family="system-ui" font-size="13" font-weight="800" fill="#f4f7ff">Zero-Trust Controls</text>
+
+    <rect x="88" y="394" width="204" height="34" rx="12" fill="#0b1220" opacity="0.75" stroke="#a78bfa" stroke-opacity="0.7" stroke-width="1.4"/>
+    <text x="104" y="416" font-family="system-ui" font-size="13" font-weight="800" fill="#f4f7ff">Secure Logging</text>
+  </g>
+
+  <!-- Translator -->
+  <g filter="url(#glow)">
+    <rect x="360" y="170" width="380" height="130" rx="18" fill="url(#card)" stroke="#67b8ff" stroke-width="2.2"/>
+    <text x="390" y="210" font-family="system-ui" font-size="18" font-weight="900" fill="#67b8ff">Portable Translator</text>
+    <text x="390" y="240" font-family="system-ui" font-size="14" font-weight="700" fill="#e6eefc">• OCR (Tesseract)</text>
+    <text x="390" y="262" font-family="system-ui" font-size="14" font-weight="700" fill="#e6eefc">• Argos / Marian NMT</text>
+    <text x="390" y="284" font-family="system-ui" font-size="14" font-weight="700" fill="#e6eefc">• Offline Local API</text>
+  </g>
+
+  <!-- SurgicalVisualization -->
+  <g filter="url(#glow)">
+    <rect x="360" y="340" width="380" height="130" rx="18" fill="url(#card)" stroke="#a78bfa" stroke-width="2.2"/>
+    <text x="390" y="380" font-family="system-ui" font-size="18" font-weight="900" fill="#a78bfa">SurgicalVisualization</text>
+    <text x="390" y="410" font-family="system-ui" font-size="14" font-weight="700" fill="#e6eefc">• 3D STL / OBJ Rendering</text>
+    <text x="390" y="432" font-family="system-ui" font-size="14" font-weight="700" fill="#e6eefc">• HelixToolkit / Three.js</text>
+    <text x="390" y="454" font-family="system-ui" font-size="14" font-weight="700" fill="#e6eefc">• Interactive Camera + Mesh Tools</text>
+  </g>
+
+  <!-- Orchestration -->
+  <g filter="url(#glow)">
+    <rect x="860" y="240" width="460" height="150" rx="18" fill="url(#card)" stroke="url(#accent)" stroke-width="2.4"/>
+    <text x="890" y="285" font-family="system-ui" font-size="18" font-weight="900" fill="#8be9a8">Service Orchestration</text>
+    <text x="890" y="315" font-family="system-ui" font-size="14" font-weight="700" fill="#e6eefc">• Process Management</text>
+    <text x="890" y="337" font-family="system-ui" font-size="14" font-weight="700" fill="#e6eefc">• Health Monitoring</text>
+    <text x="890" y="359" font-family="system-ui" font-size="14" font-weight="700" fill="#e6eefc">• Logging + Diagnostics</text>
+  </g>
+
+  <!-- Bottom security strip -->
+  <g filter="url(#glow)">
+    <rect x="60" y="490" width="1260" height="50" rx="14" fill="url(#card)" stroke="url(#accent)" stroke-width="2"/>
+    <text x="90" y="522" font-family="system-ui" font-size="15" font-weight="800" fill="#f4f7ff">
+      Security + Offline Layer • Zero Trust • Deterministic Startup • Reproducible Deployment • Local Model Isolation
+    </text>
+  </g>
+
+  <!-- Connectors (static lines) -->
+  <g stroke="url(#accent)" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.95" filter="url(#lineGlow)">
+    <use href="#p_pill_to_trans"/>
+    <use href="#p_pill_to_surg"/>
+    <use href="#p_trans_to_orch"/>
+    <use href="#p_surg_to_orch"/>
+    <use href="#p_orch_to_sec"/>
+  </g>
+
+  <!-- Pulses (BIDIRECTIONAL) -->
+  <g filter="url(#glow)">
+    <!-- Helper: a reusable pulse style via duplication (kept explicit for GitHub compatibility) -->
+
+    <!-- Pillar <-> Translator -->
+    <circle r="5.2" fill="#8be9a8">
+      <animate attributeName="opacity" values="0.25;1;0.25" dur="1.2s" repeatCount="indefinite"/>
+      <animateMotion dur="2.2s" repeatCount="indefinite" rotate="auto">
+        <mpath href="#p_pill_to_trans"/>
+      </animateMotion>
+    </circle>
+    <circle r="5.2" fill="#67b8ff">
+      <animate attributeName="opacity" values="0.25;1;0.25" dur="1.35s" repeatCount="indefinite"/>
+      <animateMotion dur="2.2s" repeatCount="indefinite" rotate="auto" keyPoints="1;0" keyTimes="0;1" calcMode="linear">
+        <mpath href="#p_pill_to_trans"/>
+      </animateMotion>
+    </circle>
+
+    <!-- Pillar <-> Surgical -->
+    <circle r="5.2" fill="#a78bfa">
+      <animate attributeName="opacity" values="0.25;1;0.25" dur="1.25s" repeatCount="indefinite"/>
+      <animateMotion dur="2.5s" repeatCount="indefinite" rotate="auto">
+        <mpath href="#p_pill_to_surg"/>
+      </animateMotion>
+    </circle>
+    <circle r="5.2" fill="#8be9a8">
+      <animate attributeName="opacity" values="0.25;1;0.25" dur="1.45s" repeatCount="indefinite"/>
+      <animateMotion dur="2.5s" repeatCount="indefinite" rotate="auto" keyPoints="1;0" keyTimes="0;1" calcMode="linear">
+        <mpath href="#p_pill_to_surg"/>
+      </animateMotion>
+    </circle>
+
+    <!-- Translator <-> Orchestration -->
+    <circle r="5.6" fill="#67b8ff">
+      <animate attributeName="opacity" values="0.25;1;0.25" dur="1.15s" repeatCount="indefinite"/>
+      <animateMotion dur="2.8s" repeatCount="indefinite" rotate="auto">
+        <mpath href="#p_trans_to_orch"/>
+      </animateMotion>
+    </circle>
+    <circle r="5.6" fill="#8be9a8">
+      <animate attributeName="opacity" values="0.25;1;0.25" dur="1.35s" repeatCount="indefinite"/>
+      <animateMotion dur="2.8s" repeatCount="indefinite" rotate="auto" keyPoints="1;0" keyTimes="0;1" calcMode="linear">
+        <mpath href="#p_trans_to_orch"/>
+      </animateMotion>
+    </circle>
+
+    <!-- Surgical <-> Orchestration -->
+    <circle r="5.6" fill="#a78bfa">
+      <animate attributeName="opacity" values="0.25;1;0.25" dur="1.2s" repeatCount="indefinite"/>
+      <animateMotion dur="3.0s" repeatCount="indefinite" rotate="auto">
+        <mpath href="#p_surg_to_orch"/>
+      </animateMotion>
+    </circle>
+    <circle r="5.6" fill="#67b8ff">
+      <animate attributeName="opacity" values="0.25;1;0.25" dur="1.4s" repeatCount="indefinite"/>
+      <animateMotion dur="3.0s" repeatCount="indefinite" rotate="auto" keyPoints="1;0" keyTimes="0;1" calcMode="linear">
+        <mpath href="#p_surg_to_orch"/>
+      </animateMotion>
+    </circle>
+
+    <!-- Orchestration <-> Security strip (subtle) -->
+    <circle r="4.8" fill="#8be9a8" opacity="0.9">
+      <animate attributeName="opacity" values="0.15;0.85;0.15" dur="1.6s" repeatCount="indefinite"/>
+      <animateMotion dur="3.4s" repeatCount="indefinite" rotate="auto">
+        <mpath href="#p_orch_to_sec"/>
+      </animateMotion>
+    </circle>
+    <circle r="4.8" fill="#67b8ff" opacity="0.9">
+      <animate attributeName="opacity" values="0.15;0.85;0.15" dur="1.8s" repeatCount="indefinite"/>
+      <animateMotion dur="3.4s" repeatCount="indefinite" rotate="auto" keyPoints="1;0" keyTimes="0;1" calcMode="linear">
+        <mpath href="#p_orch_to_sec"/>
+      </animateMotion>
+    </circle>
+  </g>
+
+  <!-- Vignette -->
+  <rect width="1400" height="560" fill="url(#vig)"/>
+</svg>
