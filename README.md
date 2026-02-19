@@ -66,6 +66,9 @@ I focus on practical, operations-ready security work: alert triage, vulnerabilit
 C#
 - **[Language Translator](https://github.com/brianhannigan/translator)**  
   C# desktop translator application that converts text between languages through a simple UI.
+
+  ![LinguoAI translator animated demo](https://github.com/brianhannigan/translator/blob/main/docs/demo/linguoai-demo.svg)
+
 - **[Medical 3D Simulator (SurgicalVisualization)](https://github.com/brianhannigan/surgicalvisualization)**  
   3D medical visualization and simulation project focused on surgical anatomy exploration and training.
   <img width="1591" height="719" alt="image" src="https://github.com/user-attachments/assets/a0da70ff-fc3c-427c-bfd9-ecddce0b5789" />
