@@ -50,7 +50,8 @@ My work spans vulnerability management, threat detection, and security operation
 - Clean dark-mode surgical UI  
 
 **[Medical 3D Simulator (SurgicalVisualization)](https://github.com/brianhannigan/surgicalvisualization)**  
-3D medical visualization and simulation project focused on surgical anatomy exploration and training.
+
+***3D medical visualization and simulation project focused on surgical anatomy exploration and training.***
 <img width="1591" height="719" alt="image" src="https://github.com/user-attachments/assets/a0da70ff-fc3c-427c-bfd9-ecddce0b5789" />
   ---
 
