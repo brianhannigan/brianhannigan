@@ -20,22 +20,66 @@
   <sub>Product-style repositories with demos, architecture, and deployable workflows.</sub>
 </p>
 
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/brianhannigan/translator">
+        <img src="https://opengraph.githubassets.com/main/brianhannigan/translator" alt="Portable Translator project banner" width="100%" />
+      </a>
+      <h3>🧠 Portable Translator (Offline AI)</h3>
+      <p>Self-contained OCR + offline translation engine built for field use and disconnected environments.</p>
+      <ul>
+        <li>WPF UI + embedded Python orchestration</li>
+        <li>Tesseract OCR + Argos / Marian NMT</li>
+        <li>Local APIs, health checks, PID management, audit logging</li>
+      </ul>
+      <p><a href="https://github.com/brianhannigan/translator"><strong>View repository →</strong></a></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/brianhannigan/SurgicalVisualization">
+        <img src="https://opengraph.githubassets.com/main/brianhannigan/SurgicalVisualization" alt="SurgicalVisualization project banner" width="100%" />
+      </a>
+      <h3>🧬 SurgicalVisualization (3D Medical)</h3>
+      <p>3D model inspection platform for surgical / medical STL/OBJ workflows with desktop + web engines.</p>
+      <ul>
+        <li>WPF + HelixToolkit for desktop rendering</li>
+        <li>Three.js browser engine for web-based inspection</li>
+        <li>Mesh inspection, camera controls, visualization tools</li>
+      </ul>
+      <p><a href="https://github.com/brianhannigan/SurgicalVisualization"><strong>View repository →</strong></a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/brianhannigan/kql-threathunting-beginner-guide">
+        <img src="https://opengraph.githubassets.com/main/brianhannigan/kql-threathunting-beginner-guide" alt="Threat hunting project banner" width="100%" />
+      </a>
+      <h3>🛡 Threat Hunting (KQL / SIEM)</h3>
+      <p>Practical threat-hunting playbooks and detection engineering workflows for SOC-style investigations.</p>
+      <ul>
+        <li>KQL investigations &amp; correlations</li>
+        <li>Attack chain reasoning &amp; hypotheses</li>
+        <li>Documentation-first, repeatable hunts</li>
+      </ul>
+      <p><a href="https://github.com/brianhannigan/kql-threathunting-beginner-guide"><strong>View repository →</strong></a></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/brianhannigan">
+        <img src="assets/architecture.svg" alt="Compliance and hardening background" width="100%" />
+      </a>
+      <h3>📋 Compliance + Hardening (STIG / VM)</h3>
+      <p>Security engineering focused on secure baselines, vulnerability management, and audit-ready evidence.</p>
+      <ul>
+        <li>DISA STIG alignment &amp; remediation workflows</li>
+        <li>Nessus / vulnerability scanning methodology</li>
+        <li>Patch validation + reporting</li>
+      </ul>
+      <p><a href="https://github.com/brianhannigan"><strong>Explore related work →</strong></a></p>
+    </td>
+  </tr>
+</table>
+
 <hr/>
-
-## ⚡ Flagship Projects
-
-<sub>Product-style repositories with demos, architecture, and deployable workflows.</sub>
-
-| | |
-|---|---|
-| ### 🧠 Portable Translator (Offline AI)  <br> Self-contained OCR + offline translation engine built for field use and disconnected environments.  <br><br> **Highlights**  <br> - WPF UI + embedded Python orchestration  <br> - Tesseract OCR + Argos / Marian NMT  <br> - Local APIs, health checks, PID management, audit logging  <br><br> **Repo:** https://github.com/brianhannigan/translator | ### 🧬 SurgicalVisualization (3D Medical)  <br> 3D model inspection platform for surgical / medical STL/OBJ workflows with desktop + web engines.  <br><br> **Highlights**  <br> - WPF + HelixToolkit for desktop rendering  <br> - Three.js browser engine for web-based inspection  <br> - Mesh inspection, camera controls, visualization tools  <br><br> **Repo:** https://github.com/brianhannigan/SurgicalVisualization |
-| ### 🛡 Threat Hunting (KQL / SIEM)  <br> Practical threat-hunting playbooks and detection engineering workflows for SOC-style investigations.  <br><br> **Highlights**  <br> - KQL investigations & correlations  <br> - Attack chain reasoning & hypotheses  <br> - Documentation-first, repeatable hunts  <br><br> **Repo:** https://github.com/brianhannigan/kql-threathunting-beginner-guide | ### 📋 Compliance + Hardening (STIG / VM)  <br> Security engineering focused on secure baselines, vulnerability management, and audit-ready evidence.  <br><br> **Highlights**  <br> - DISA STIG alignment & remediation workflows  <br> - Nessus / vulnerability scanning methodology  <br> - Patch validation + reporting |
-
-<hr/>
-
-
-<hr/>
-
 
 ---
 ## 🔥 Mission
