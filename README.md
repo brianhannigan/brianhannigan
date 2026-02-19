@@ -148,9 +148,13 @@ My work spans vulnerability management, threat detection, and security operation
 - SIEM analytics  
 - Incident triage workflows  
 - Detection engineering  
+- SOC data import/export analysis workflows
 
 🔗 Example Repository:  
 https://github.com/brianhannigan/kql-threathunting-beginner-guide
+
+🔗 SOC Investigation Import/Export Repository:  
+https://github.com/brianhannigan/soc-investigation-azuki-import-export
 
 
 ---
