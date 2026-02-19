@@ -1,10 +1,17 @@
-# 👋 Hi, I'm Brian,
+# 🚀 Brian Hannigan  
+### Software Architect | Cybersecurity Engineer | AI Systems Builder  
+---
+## 🔥 Mission
 
-**Software Engineer | Cybersecurity Professional | AI Consultant & Strategist **
+I build **secure, intelligent, mission-critical systems** designed to operate in real-world environments.
 
-- 💻 Software Engineer with 20+ years in complex systems
-- 🔐 Cybersecurity professional focused on vulnerability management, threat hunting, and secure systems
-- 🤖 AI consultant helping teams apply ML/AI practically and responsibly
+From **DoD simulation platforms** to **offline AI translation engines**, my work blends:
+
+- 🛡 Cybersecurity & Compliance  
+- 🧠 AI / LLM Systems  
+- 🖥 Desktop & 3D Visualization Applications  
+- ⚙️ Infrastructure Automation  
+- 🔐 Zero-Trust Architectures  
 
 ---
 ## Project Portfolios
