@@ -1,185 +1,189 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Brian Hannigan animated header">
+<svg width="1400" height="360" viewBox="0 0 1400 360"
+     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Brian Hannigan animated header"
+     shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+
   <defs>
     <!-- Background gradient -->
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#07101f"/>
-      <stop offset="0.5" stop-color="#0a1630"/>
-      <stop offset="1" stop-color="#061427"/>
-      <animate attributeName="x1" values="0;1200;0" dur="18s" repeatCount="indefinite"/>
-      <animate attributeName="x2" values="1200;0;1200" dur="18s" repeatCount="indefinite"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#050b16"/>
+      <stop offset="0.5" stop-color="#081633"/>
+      <stop offset="1" stop-color="#041022"/>
+      <animate attributeName="x1" values="0;1400;0" dur="18s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1400;0;1400" dur="18s" repeatCount="indefinite"/>
     </linearGradient>
 
     <!-- Neon accent gradient -->
-    <linearGradient id="accent" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+    <linearGradient id="accent" x1="0" y1="0" x2="1400" y2="0" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#67b8ff"/>
       <stop offset="0.33" stop-color="#8be9a8"/>
       <stop offset="0.66" stop-color="#a78bfa"/>
       <stop offset="1" stop-color="#67b8ff"/>
-      <animate attributeName="x1" values="0;1200;0" dur="10s" repeatCount="indefinite"/>
-      <animate attributeName="x2" values="1200;0;1200" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="x1" values="0;1400;0" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1400;0;1400" dur="10s" repeatCount="indefinite"/>
     </linearGradient>
 
-    <!-- Soft glow -->
-    <filter id="glow" x="-40%" y="-80%" width="180%" height="240%">
-      <feGaussianBlur stdDeviation="6" result="blur"/>
-      <feColorMatrix in="blur" type="matrix"
-        values="1 0 0 0 0
-                0 1 0 0 0
-                0 0 1 0 0
-                0 0 0 0.9 0" result="colored"/>
+    <!-- Crisp shadow (minimal blur) -->
+    <filter id="textShadow" x="-30%" y="-80%" width="160%" height="260%">
+      <feGaussianBlur stdDeviation="1.2" result="b"/>
+      <feColorMatrix in="b" type="matrix"
+        values="0 0 0 0 0
+                0 0 0 0 0
+                0 0 0 0 0
+                0 0 0 0.65 0" result="s"/>
+      <feOffset in="s" dx="0" dy="2" result="o"/>
       <feMerge>
-        <feMergeNode in="colored"/>
+        <feMergeNode in="o"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
 
-    <!-- Subtle grain -->
-    <filter id="grain">
-      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch" result="noise">
-        <animate attributeName="seed" values="1;2;3;4;5;6;7;8" dur="6s" repeatCount="indefinite"/>
-      </feTurbulence>
-      <feColorMatrix type="matrix"
+    <!-- Soft panel glow (kept subtle for sharpness) -->
+    <filter id="panelGlow" x="-40%" y="-80%" width="180%" height="260%">
+      <feGaussianBlur stdDeviation="3.2" result="blur"/>
+      <feColorMatrix in="blur" type="matrix"
         values="1 0 0 0 0
                 0 1 0 0 0
                 0 0 1 0 0
-                0 0 0 0.06 0"/>
-      <feComposite operator="in" in2="SourceGraphic"/>
+                0 0 0 0.25 0" result="glow"/>
+      <feMerge>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
     </filter>
 
     <!-- Scanline gradient -->
     <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#67b8ff" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#67b8ff" stop-opacity="0.25"/>
+      <stop offset="0.5" stop-color="#67b8ff" stop-opacity="0.20"/>
       <stop offset="1" stop-color="#67b8ff" stop-opacity="0"/>
     </linearGradient>
 
     <!-- Vignette -->
-    <radialGradient id="vig" cx="50%" cy="45%" r="70%">
+    <radialGradient id="vig" cx="50%" cy="45%" r="72%">
       <stop offset="0" stop-color="#000000" stop-opacity="0"/>
-      <stop offset="1" stop-color="#000000" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.60"/>
     </radialGradient>
 
-    <!-- Fancy clip for the title panel -->
     <clipPath id="panelClip">
-      <rect x="64" y="56" width="1072" height="208" rx="18" ry="18"/>
+      <rect x="36" y="56" width="1328" height="236" rx="18" ry="18"/>
     </clipPath>
   </defs>
 
   <!-- Background -->
-  <rect width="1200" height="320" fill="url(#bg)"/>
+  <rect width="1400" height="360" fill="url(#bg)"/>
 
-  <!-- Ambient blobs -->
-  <g opacity="0.65">
-    <circle cx="140" cy="80" r="120" fill="#67b8ff" opacity="0.08">
-      <animate attributeName="cx" values="120;170;120" dur="12s" repeatCount="indefinite"/>
-      <animate attributeName="cy" values="70;95;70" dur="12s" repeatCount="indefinite"/>
+  <!-- Ambient blobs (slightly reduced to keep crisp) -->
+  <g opacity="0.55">
+    <circle cx="160" cy="92" r="140" fill="#67b8ff" opacity="0.07">
+      <animate attributeName="cx" values="150;200;150" dur="12s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="85;110;85" dur="12s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="1040" cy="250" r="170" fill="#8be9a8" opacity="0.07">
-      <animate attributeName="cx" values="1030;1070;1030" dur="14s" repeatCount="indefinite"/>
-      <animate attributeName="cy" values="245;230;245" dur="14s" repeatCount="indefinite"/>
+    <circle cx="1220" cy="280" r="210" fill="#8be9a8" opacity="0.06">
+      <animate attributeName="cx" values="1200;1250;1200" dur="14s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="275;255;275" dur="14s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="860" cy="70" r="90" fill="#a78bfa" opacity="0.06">
-      <animate attributeName="cx" values="840;890;840" dur="16s" repeatCount="indefinite"/>
-      <animate attributeName="cy" values="60;85;60" dur="16s" repeatCount="indefinite"/>
+    <circle cx="980" cy="84" r="110" fill="#a78bfa" opacity="0.055">
+      <animate attributeName="cx" values="960;1010;960" dur="16s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="78;104;78" dur="16s" repeatCount="indefinite"/>
     </circle>
   </g>
 
   <!-- Title panel -->
-  <g clip-path="url(#panelClip)">
-    <rect x="64" y="56" width="1072" height="208" rx="18" ry="18" fill="#0b1220" opacity="0.62"/>
-    <rect x="64" y="56" width="1072" height="208" rx="18" ry="18" fill="none" stroke="url(#accent)" stroke-width="2" opacity="0.7"/>
+  <g clip-path="url(#panelClip)" filter="url(#panelGlow)">
+    <!-- Dark glass panel -->
+    <rect x="36" y="56" width="1328" height="236" rx="18" ry="18" fill="#0b1220" opacity="0.70"/>
+    <rect x="36" y="56" width="1328" height="236" rx="18" ry="18" fill="none" stroke="url(#accent)" stroke-width="2.2" opacity="0.85"/>
+
+    <!-- Subtle grid (crisper + lower opacity) -->
+    <g opacity="0.10">
+      <path d="M0 110 H1400 M0 156 H1400 M0 202 H1400 M0 248 H1400 M0 294 H1400" stroke="#67b8ff" stroke-width="1"/>
+      <path d="M160 0 V360 M260 0 V360 M360 0 V360 M460 0 V360 M560 0 V360 M660 0 V360 M760 0 V360 M860 0 V360 M960 0 V360 M1060 0 V360 M1160 0 V360 M1260 0 V360" stroke="#8be9a8" stroke-width="1"/>
+    </g>
 
     <!-- Scanline sweep -->
-    <rect x="64" y="-220" width="1072" height="220" fill="url(#scan)" opacity="0.7">
-      <animate attributeName="y" values="-220;360" dur="4.8s" repeatCount="indefinite"/>
+    <rect x="36" y="-240" width="1328" height="240" fill="url(#scan)" opacity="0.75">
+      <animate attributeName="y" values="-240;420" dur="4.8s" repeatCount="indefinite"/>
     </rect>
-
-    <!-- Grid (very subtle) -->
-    <g opacity="0.14">
-      <path d="M0 96 H1200 M0 136 H1200 M0 176 H1200 M0 216 H1200 M0 256 H1200" stroke="#67b8ff" stroke-width="1"/>
-      <path d="M160 0 V320 M240 0 V320 M320 0 V320 M400 0 V320 M480 0 V320 M560 0 V320 M640 0 V320 M720 0 V320 M800 0 V320 M880 0 V320 M960 0 V320 M1040 0 V320" stroke="#8be9a8" stroke-width="1"/>
-    </g>
 
     <!-- Floating particles -->
     <g opacity="0.85">
-      <!-- Each particle animates upward + fades; staggered delays -->
-      <circle cx="140" cy="250" r="2" fill="#67b8ff">
-        <animate attributeName="cy" values="270;80" dur="6s" repeatCount="indefinite"/>
+      <circle cx="170" cy="300" r="2" fill="#67b8ff">
+        <animate attributeName="cy" values="320;96" dur="6s" repeatCount="indefinite"/>
         <animate attributeName="opacity" values="0;0.9;0" dur="6s" repeatCount="indefinite"/>
       </circle>
-      <circle cx="220" cy="290" r="1.6" fill="#8be9a8">
-        <animate attributeName="cy" values="300;90" dur="7.2s" repeatCount="indefinite"/>
+      <circle cx="310" cy="330" r="1.7" fill="#8be9a8">
+        <animate attributeName="cy" values="340;104" dur="7.2s" repeatCount="indefinite"/>
         <animate attributeName="opacity" values="0;0.85;0" dur="7.2s" repeatCount="indefinite"/>
       </circle>
-      <circle cx="340" cy="270" r="1.9" fill="#a78bfa">
-        <animate attributeName="cy" values="290;85" dur="6.6s" repeatCount="indefinite"/>
+      <circle cx="520" cy="315" r="1.9" fill="#a78bfa">
+        <animate attributeName="cy" values="334;100" dur="6.6s" repeatCount="indefinite"/>
         <animate attributeName="opacity" values="0;0.8;0" dur="6.6s" repeatCount="indefinite"/>
       </circle>
-      <circle cx="520" cy="295" r="1.7" fill="#67b8ff">
-        <animate attributeName="cy" values="310;95" dur="7.8s" repeatCount="indefinite"/>
+      <circle cx="760" cy="330" r="1.8" fill="#67b8ff">
+        <animate attributeName="cy" values="346;106" dur="7.8s" repeatCount="indefinite"/>
         <animate attributeName="opacity" values="0;0.85;0" dur="7.8s" repeatCount="indefinite"/>
       </circle>
-      <circle cx="680" cy="275" r="2" fill="#8be9a8">
-        <animate attributeName="cy" values="295;90" dur="6.9s" repeatCount="indefinite"/>
+      <circle cx="980" cy="318" r="2" fill="#8be9a8">
+        <animate attributeName="cy" values="336;102" dur="6.9s" repeatCount="indefinite"/>
         <animate attributeName="opacity" values="0;0.9;0" dur="6.9s" repeatCount="indefinite"/>
       </circle>
-      <circle cx="860" cy="285" r="1.8" fill="#a78bfa">
-        <animate attributeName="cy" values="305;92" dur="7.4s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0;0.85;0" dur="7.4s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="1020" cy="270" r="2.1" fill="#67b8ff">
-        <animate attributeName="cy" values="292;84" dur="6.3s" repeatCount="indefinite"/>
+      <circle cx="1220" cy="312" r="2.1" fill="#67b8ff">
+        <animate attributeName="cy" values="332;98" dur="6.3s" repeatCount="indefinite"/>
         <animate attributeName="opacity" values="0;0.9;0" dur="6.3s" repeatCount="indefinite"/>
       </circle>
     </g>
   </g>
 
-  <!-- Main title text -->
-  <g filter="url(#glow)">
-    <text x="96" y="140" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial"
-          font-size="44" font-weight="800" fill="#e7edf7" letter-spacing="0.5">
+  <!-- Main title text (sharper: higher contrast, smaller blur) -->
+  <g filter="url(#textShadow)">
+    <text x="90" y="150"
+          font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial"
+          font-size="52" font-weight="900" fill="#f4f7ff" letter-spacing="0.4">
       Brian Hannigan
-      <animate attributeName="opacity" values="0.92;1;0.92" dur="3.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.96;1;0.96" dur="3.6s" repeatCount="indefinite"/>
     </text>
 
-    <text x="96" y="178" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial"
-          font-size="18" font-weight="600" fill="url(#accent)" opacity="0.95">
+    <text x="90" y="194"
+          font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial"
+          font-size="20" font-weight="700" fill="url(#accent)" opacity="0.98">
       Software Architect • Cybersecurity Engineer • AI Systems Builder
     </text>
 
-    <text x="96" y="214" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial"
-          font-size="15" font-weight="500" fill="#c6d2e7" opacity="0.92">
+    <text x="90" y="235"
+          font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial"
+          font-size="16" font-weight="600" fill="#d2dbee" opacity="0.96">
       Secure • Offline-First • Zero-Trust • Deployable Systems
     </text>
   </g>
 
-  <!-- Right-side mini "status chips" -->
-  <g transform="translate(760, 110)" opacity="0.95">
+  <!-- Right-side status chips (sharper strokes + slightly larger) -->
+  <g transform="translate(875, 122)" opacity="0.97" filter="url(#textShadow)">
     <g>
-      <rect x="0" y="0" width="360" height="40" rx="12" fill="#0b1220" opacity="0.7" stroke="url(#accent)" stroke-width="1.2"/>
-      <circle cx="22" cy="20" r="6" fill="#8be9a8">
-        <animate attributeName="r" values="5;6.5;5" dur="1.6s" repeatCount="indefinite"/>
+      <rect x="0" y="0" width="445" height="44" rx="12" fill="#0b1220" opacity="0.78" stroke="url(#accent)" stroke-width="1.6"/>
+      <circle cx="24" cy="22" r="6.2" fill="#8be9a8">
+        <animate attributeName="r" values="5.6;6.8;5.6" dur="1.6s" repeatCount="indefinite"/>
       </circle>
-      <text x="40" y="25" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial"
-            font-size="13.5" font-weight="700" fill="#e7edf7">
+      <text x="46" y="28"
+            font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial"
+            font-size="14.2" font-weight="800" fill="#f4f7ff">
         Building: Offline AI Translator + 3D Visualization Portfolio
       </text>
     </g>
 
-    <g transform="translate(0, 54)">
-      <rect x="0" y="0" width="360" height="40" rx="12" fill="#0b1220" opacity="0.62" stroke="#67b8ff" stroke-opacity="0.6" stroke-width="1.2"/>
-      <circle cx="22" cy="20" r="6" fill="#67b8ff" opacity="0.9">
-        <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite"/>
+    <g transform="translate(0, 58)">
+      <rect x="0" y="0" width="445" height="44" rx="12" fill="#0b1220" opacity="0.72" stroke="#67b8ff" stroke-opacity="0.72" stroke-width="1.6"/>
+      <circle cx="24" cy="22" r="6.2" fill="#67b8ff" opacity="0.95">
+        <animate attributeName="opacity" values="0.65;1;0.65" dur="2s" repeatCount="indefinite"/>
       </circle>
-      <text x="40" y="25" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial"
-            font-size="13.5" font-weight="700" fill="#e7edf7">
+      <text x="46" y="28"
+            font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial"
+            font-size="14.2" font-weight="800" fill="#f4f7ff">
         Focus: Security • Compliance • AI Orchestration
       </text>
     </g>
   </g>
 
-  <!-- Vignette + grain overlay -->
-  <rect width="1200" height="320" fill="url(#vig)"/>
-  <rect width="1200" height="320" filter="url(#grain)" opacity="0.9"/>
+  <!-- Vignette -->
+  <rect width="1400" height="360" fill="url(#vig)"/>
 </svg>
