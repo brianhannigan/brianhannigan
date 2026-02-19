@@ -14,15 +14,60 @@ From **DoD simulation platforms** to **offline AI translation engines**, my work
 - 🔐 Zero-Trust Architectures  
 
 ---
-## Project Portfolios
+
+# 🧭 Portfolio Navigation
 
 ## 🛡️ IT & Cybersecurity
 
 I'm passionate about cybersecurity and enjoy solving complex, real-world security challenges through hands-on projects.  
 My work spans vulnerability management, threat detection, and security operations—focused on practical impact, not theory.
 
-## 🔐 SOC / MSS Security Work (Highlights)
+## 🧠 AI & Intelligent Systems
 
+### 🔹 Portable Translator (Offline AI Translation Engine)
+> Self-contained OCR + AI translation platform with embedded Python and local model hosting.
+
+**Highlights**
+- Argos + Marian NMT support  
+- Embedded Tesseract OCR  
+- Offline model hosting  
+- Local API services  
+- WPF + Python hybrid architecture  
+- Secure background service orchestration
+
+**[Language Translator](https://github.com/brianhannigan/translator)**
+
+ ![LinguoAI translator animated demo](https://github.com/brianhannigan/translator/blob/main/docs/demo/linguoai-demo.svg)
+---
+### 🔹 SurgicalVisualization (3D Medical Engine)
+> HelixToolkit + Three.js 3D model inspection and surgical analysis platform.
+
+**Highlights**
+- STL / OBJ 3D rendering  
+- Desktop (WPF) + Web (Three.js) dual engine  
+- Camera control + mesh inspection  
+- Precision zoom + lighting control  
+- Clean dark-mode surgical UI  
+
+**[Medical 3D Simulator (SurgicalVisualization)](https://github.com/brianhannigan/surgicalvisualization)**  
+3D medical visualization and simulation project focused on surgical anatomy exploration and training.
+<img width="1591" height="719" alt="image" src="https://github.com/user-attachments/assets/a0da70ff-fc3c-427c-bfd9-ecddce0b5789" />
+  ---
+
+## 🛡 Cybersecurity & Intelligence Engineering
+
+### 🔹 Threat Hunting & Detection Engineering
+- KQL investigations  
+- Log correlation  
+- SIEM analytics  
+- Incident triage workflows  
+- Detection engineering  
+
+🔗 Example Repository:  
+https://github.com/brianhannigan/kql-threathunting-beginner-guide
+
+---
+## 🔐 SOC / MSS Security Work (Highlights)
 I focus on practical, operations-ready security work: alert triage, vulnerability scanning, secure configuration, and clear client-facing reporting.
 
 ---
@@ -71,14 +116,7 @@ I focus on practical, operations-ready security work: alert triage, vulnerabilit
 
 ## 🛡️ Software Development
 C#
-- **[Language Translator](https://github.com/brianhannigan/translator)**  
-  C# desktop translator application that converts text between languages through a simple UI.
 
-  ![LinguoAI translator animated demo](https://github.com/brianhannigan/translator/blob/main/docs/demo/linguoai-demo.svg)
-
-- **[Medical 3D Simulator (SurgicalVisualization)](https://github.com/brianhannigan/surgicalvisualization)**  
-  3D medical visualization and simulation project focused on surgical anatomy exploration and training.
-  <img width="1591" height="719" alt="image" src="https://github.com/user-attachments/assets/a0da70ff-fc3c-427c-bfd9-ecddce0b5789" />
 
 - ** Screen Sender
 - **
