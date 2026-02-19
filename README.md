@@ -81,6 +81,7 @@
 
 <hr/>
 
+
 ---
 ## 🔥 Mission
 
@@ -118,7 +119,8 @@ My work spans vulnerability management, threat detection, and security operation
 
 **[Language Translator](https://github.com/brianhannigan/translator)**
 
- ![LinguoAI translator animated demo](https://github.com/brianhannigan/translator/blob/main/docs/demo/linguoai-demo.svg)
+ ![LinguoAI translator animated demo](https://raw.githubusercontent.com/brianhannigan/translator/main/docs/demo/linguoai-demo.svg)
+
 ---
 ### 🔹 SurgicalVisualization (3D Medical Engine)
 > HelixToolkit + Three.js 3D model inspection and surgical analysis platform.
@@ -130,7 +132,8 @@ My work spans vulnerability management, threat detection, and security operation
 - Precision zoom + lighting control  
 - Clean dark-mode surgical UI  
 
-**[Medical 3D Simulator (SurgicalVisualization)](https://github.com/brianhannigan/surgicalvisualization)**  
+**[Medical 3D Simulator (SurgicalVisualization)](https://github.com/brianhannigan/SurgicalVisualization)**
+
 
 ***3D medical visualization and simulation project focused on surgical anatomy exploration and training.***
 <img width="1591" height="719" alt="image" src="https://github.com/user-attachments/assets/a0da70ff-fc3c-427c-bfd9-ecddce0b5789" />
