@@ -1,4 +1,7 @@
 ![Brian Hannigan — Animated Header](./assets/header.svg)
+<p align="center">
+  <img src="assets/architecture.svg" alt="Architecture Map" width="100%" />
+</p>
 
 ---
 ## 🔥 Mission
