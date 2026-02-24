@@ -77,6 +77,22 @@
       <p><a href="https://github.com/brianhannigan/soc-investigation-azuki-import-export"><strong>View repository →</strong></a></p>
     </td>
   </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/brianhannigan/thebrokerhunt">
+        <img src="https://opengraph.githubassets.com/main/brianhannigan/thebrokerhunt" alt="thebrokerhunt project banner" width="100%" />
+      </a>
+      <h3>🕵️ thebrokerhunt</h3>
+      <p>Threat-intelligence style project focused on broker ecosystem analysis and investigative workflows.</p>
+      <ul>
+        <li>Broker-hunt documentation and research notes</li>
+        <li>Investigation-first workflow design</li>
+        <li>Structured, repeatable intelligence process</li>
+      </ul>
+      <p><a href="https://github.com/brianhannigan/thebrokerhunt"><strong>View repository →</strong></a></p>
+    </td>
+    <td width="50%" valign="top"></td>
+  </tr>
 </table>
 
 <hr/>
