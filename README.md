@@ -21,6 +21,34 @@
 </p>
 
 <table>
+    <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/brianhannigan/thebrokerhunt">
+        <img src="https://opengraph.githubassets.com/main/brianhannigan/thebrokerhunt" alt="thebrokerhunt project banner" width="100%" />
+      </a>
+      <h3>🕵️ thebrokerhunt</h3>
+      <p>Threat-intelligence style project focused on broker ecosystem analysis and investigative workflows.</p>
+      <ul>
+        <li>Broker-hunt documentation and research notes</li>
+        <li>Investigation-first workflow design</li>
+        <li>Structured, repeatable intelligence process</li>
+      </ul>
+      <p><a href="https://github.com/brianhannigan/thebrokerhunt"><strong>View repository →</strong></a></p>
+    </td>
+       <td width="50%" valign="top">
+      <a href="https://github.com/brianhannigan/kql-threathunting-beginner-guide">
+        <img src="https://opengraph.githubassets.com/main/brianhannigan/kql-threathunting-beginner-guide" alt="Threat hunting project banner" width="100%" />
+      </a>
+      <h3>🛡 Threat Hunting (KQL / SIEM)</h3>
+      <p>Practical threat-hunting playbooks and detection engineering workflows for SOC-style investigations.</p>
+      <ul>
+        <li>KQL investigations &amp; correlations</li>
+        <li>Attack chain reasoning &amp; hypotheses</li>
+        <li>Documentation-first, repeatable hunts</li>
+      </ul>
+      <p><a href="https://github.com/brianhannigan/kql-threathunting-beginner-guide"><strong>View repository →</strong></a></p>
+       </td>
+  </tr>
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/brianhannigan/translator">
@@ -49,20 +77,7 @@
       <p><a href="https://github.com/brianhannigan/SurgicalVisualization"><strong>View repository →</strong></a></p>
     </td>
   </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/brianhannigan/kql-threathunting-beginner-guide">
-        <img src="https://opengraph.githubassets.com/main/brianhannigan/kql-threathunting-beginner-guide" alt="Threat hunting project banner" width="100%" />
-      </a>
-      <h3>🛡 Threat Hunting (KQL / SIEM)</h3>
-      <p>Practical threat-hunting playbooks and detection engineering workflows for SOC-style investigations.</p>
-      <ul>
-        <li>KQL investigations &amp; correlations</li>
-        <li>Attack chain reasoning &amp; hypotheses</li>
-        <li>Documentation-first, repeatable hunts</li>
-      </ul>
-      <p><a href="https://github.com/brianhannigan/kql-threathunting-beginner-guide"><strong>View repository →</strong></a></p>
-    </td>
+  <tr>   
     <td width="50%" valign="top">
       <a href="https://github.com/brianhannigan/soc-investigation-azuki-import-export">
         <img src="https://opengraph.githubassets.com/main/brianhannigan/soc-investigation-azuki-import-export" alt="SOC Azuki import/export project banner" width="100%" />
@@ -76,22 +91,6 @@
       </ul>
       <p><a href="https://github.com/brianhannigan/soc-investigation-azuki-import-export"><strong>View repository →</strong></a></p>
     </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/brianhannigan/thebrokerhunt">
-        <img src="https://opengraph.githubassets.com/main/brianhannigan/thebrokerhunt" alt="thebrokerhunt project banner" width="100%" />
-      </a>
-      <h3>🕵️ thebrokerhunt</h3>
-      <p>Threat-intelligence style project focused on broker ecosystem analysis and investigative workflows.</p>
-      <ul>
-        <li>Broker-hunt documentation and research notes</li>
-        <li>Investigation-first workflow design</li>
-        <li>Structured, repeatable intelligence process</li>
-      </ul>
-      <p><a href="https://github.com/brianhannigan/thebrokerhunt"><strong>View repository →</strong></a></p>
-    </td>
-    <td width="50%" valign="top"></td>
   </tr>
 </table>
 
