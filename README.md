@@ -21,6 +21,22 @@
 </p>
 
 <table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/brianhannigan/vulnerability-management-program/">
+        <img src="https://opengraph.githubassets.com/main/brianhannigan/vulnerability-management-program" alt="Vulnerability Management Program banner" width="100%" />
+      </a>
+      <h3>🛡️ Vulnerability Management Program</h3>
+      <p>End-to-end vulnerability management workflows for continuous scanning, risk prioritization, and remediation tracking.</p>
+      <ul>
+        <li>Structured vulnerability assessment lifecycle</li>
+        <li>Risk-based remediation planning</li>
+        <li>Compliance-oriented documentation practices</li>
+      </ul>
+      <p><a href="https://github.com/brianhannigan/vulnerability-management-program/"><strong>View repository →</strong></a></p>
+    </td>
+    <td width="50%" valign="top"></td>
+  </tr>
     <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/brianhannigan/thebrokerhunt">
