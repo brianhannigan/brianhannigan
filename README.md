@@ -35,7 +35,20 @@
       </ul>
       <p><a href="https://github.com/brianhannigan/vulnerability-management-program/"><strong>View repository →</strong></a></p>
     </td>
-    <td width="50%" valign="top"></td>
+     <td width="50%" valign="top">
+          <a href="https://github.com/brianhannigan/soc-investigation-azuki-import-export">
+        <img src="https://opengraph.githubassets.com/main/brianhannigan/soc-investigation-azuki-import-export" alt="SOC Azuki import/export project banner" width="100%" />
+      </a>
+      <h3>🍵 SOC Investigation Azuki (Import/Export)</h3>
+      <p>Hands-on SOC investigation workflows for importing and exporting case data with practical triage and analysis patterns.</p>
+      <ul>
+        <li>SOC case import/export investigation workflow</li>
+        <li>Analyst-oriented triage and data handling patterns</li>
+        <li>Documentation-first approach for repeatable operations</li>
+      </ul>
+      <p><a href="https://github.com/brianhannigan/soc-investigation-azuki-import-export"><strong>View repository →</strong></a></p>
+      </td>
+    
   </tr>
     <tr>
     <td width="50%" valign="top">
@@ -50,8 +63,8 @@
         <li>Structured, repeatable intelligence process</li>
       </ul>
       <p><a href="https://github.com/brianhannigan/thebrokerhunt"><strong>View repository →</strong></a></p>
-    </td>
-       <td width="50%" valign="top">
+    </td>    
+    <td width="50%" valign="top">
       <a href="https://github.com/brianhannigan/kql-threathunting-beginner-guide">
         <img src="https://opengraph.githubassets.com/main/brianhannigan/kql-threathunting-beginner-guide" alt="Threat hunting project banner" width="100%" />
       </a>
@@ -63,7 +76,7 @@
         <li>Documentation-first, repeatable hunts</li>
       </ul>
       <p><a href="https://github.com/brianhannigan/kql-threathunting-beginner-guide"><strong>View repository →</strong></a></p>
-       </td>
+    </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
@@ -95,17 +108,7 @@
   </tr>
   <tr>   
     <td width="50%" valign="top">
-      <a href="https://github.com/brianhannigan/soc-investigation-azuki-import-export">
-        <img src="https://opengraph.githubassets.com/main/brianhannigan/soc-investigation-azuki-import-export" alt="SOC Azuki import/export project banner" width="100%" />
-      </a>
-      <h3>🍵 SOC Investigation Azuki (Import/Export)</h3>
-      <p>Hands-on SOC investigation workflows for importing and exporting case data with practical triage and analysis patterns.</p>
-      <ul>
-        <li>SOC case import/export investigation workflow</li>
-        <li>Analyst-oriented triage and data handling patterns</li>
-        <li>Documentation-first approach for repeatable operations</li>
-      </ul>
-      <p><a href="https://github.com/brianhannigan/soc-investigation-azuki-import-export"><strong>View repository →</strong></a></p>
+    
     </td>
   </tr>
 </table>
