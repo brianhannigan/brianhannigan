@@ -50,6 +50,42 @@ Picatinny Arsenal, NJ
   - generate documentation
   - automate configuration scripts
 
+
+## DoD Weapons & Training Systems Supported
+
+During work supporting U.S. Army training and simulation programs at UTRS, contributed to development, deployment, and support of simulation and training environments for multiple major weapons platforms.
+
+### Artillery Systems
+
+- **M119 Lightweight Towed Howitzer**
+  - Supported training systems and simulation environments for artillery operations and maintenance training.
+
+- **M777 155mm Towed Howitzer**
+  - Worked on simulation-based training platforms used for artillery instruction and operational readiness.
+
+- **M109A6 Paladin Self-Propelled Howitzer**
+  - Contributed to simulation training software supporting artillery fire control and maintenance training.
+
+- **M109A7 Paladin Integrated Management (PIM)**
+  - Supported modernization training platforms and simulation tools used for next-generation Paladin systems.
+
+### Armored Systems
+
+- **M1A2 Abrams Main Battle Tank**
+  - Supported training and simulation platforms used to train soldiers in operation and maintenance of armored combat systems.
+
+### Training Platform Responsibilities
+
+Work included:
+
+- Simulation software development
+- Training system deployment
+- Classroom integration
+- Hardware/software integration
+- Instructor training
+- System maintenance and upgrades
+- Global training site installations
+- Technical documentation and SOP creation
 ### Technologies Used
 - Unity 3D
 - Unreal Engine
