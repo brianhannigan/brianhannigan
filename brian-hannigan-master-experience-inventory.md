@@ -97,6 +97,126 @@ Work included:
 - Docker
 - Networking infrastructure
 
+# Military Training & Simulation Systems
+
+During work supporting U.S. Army and defense training programs at UTRS, contributed to the development, deployment, and sustainment of **simulation-based training platforms** used for soldier instruction, operational readiness, and maintenance training.
+
+Many of these systems were built as **multi-player operational trainers** combined with **separate maintenance training systems**, enabling soldiers to train on both operational procedures and equipment servicing.
+
+---
+
+## Weapons Platforms Supported
+
+### Artillery Systems
+
+- **M119 Lightweight Towed Howitzer**
+  - Supported simulation-based training environments for artillery operation and maintenance instruction.
+
+- **M777 155mm Towed Howitzer**
+  - Contributed to development and deployment of artillery training simulators used to train soldiers in operational procedures and system maintenance.
+
+- **M109A6 Paladin Self-Propelled Howitzer**
+  - Supported software and training systems used for artillery operations, system diagnostics, and soldier training.
+
+- **M109A7 Paladin Integrated Management (PIM)**
+  - Contributed to modernized simulation training platforms supporting the next generation of Paladin artillery systems.
+
+---
+
+### Armored Systems
+
+- **M1A2 Abrams Main Battle Tank**
+  - Supported training and simulation systems used for instruction in armored vehicle operation and maintenance procedures.
+
+---
+
+## LAVTAGTS Trainer System
+
+**LAVTAGTS (Light Armored Vehicle Turret Gunnery Training System)**
+
+- Contributed to the development and deployment of **maintenance and combined training systems** supporting LAV turret operations.
+- The system integrated **actual turret hardware components** for realistic training.
+
+Training system capabilities included:
+
+- Hardware-in-the-loop training
+- Physical steering and turret controls
+- Realistic weapon aiming systems
+- Simulated firing controls
+- Software-driven training scenarios
+
+The platform combined:
+
+- **actual operational hardware**
+- **custom training software**
+- **simulated battlefield scenarios**
+
+This allowed soldiers to train on the **same physical controls used in operational systems** while running simulated training exercises.
+
+---
+
+## Training System Architecture
+
+Training platforms often included two major trainer types:
+
+### Multi-Player Operational Trainers
+
+Operational trainers were designed to simulate real combat environments and allowed multiple trainees to participate simultaneously.
+
+Features included:
+
+- networked multi-player training scenarios
+- simulated battlefield environments
+- instructor-controlled training scenarios
+- mission playback and evaluation tools
+- performance monitoring and feedback
+
+---
+
+### Maintenance Trainers
+
+Separate **maintenance trainers** were developed to train soldiers on:
+
+- system diagnostics
+- component maintenance
+- troubleshooting procedures
+- repair workflows
+
+Maintenance trainers often included:
+
+- simulated equipment faults
+- guided repair scenarios
+- training evaluation systems
+
+---
+
+## Technical Responsibilities
+
+Work on these systems included:
+
+- simulation software development
+- trainer software architecture
+- system deployment and configuration
+- hardware and software integration
+- instructor training
+- classroom installation
+- global deployment support
+- technical documentation and SOP development
+- lifecycle maintenance and upgrades
+
+---
+
+## Technologies Used
+
+- C#
+- .NET
+- Unity 3D
+- Unreal Engine
+- simulation engines
+- custom trainer software
+- networking infrastructure
+- classroom AV and training hardware
+
 ---
 
 ## Murray Media
