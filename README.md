@@ -137,7 +137,7 @@
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/brianhannigan/threat-hunts/blob/main/hunts/thebuyerhunt.md">
-        <img src="https://opengraph.githubassets.com/main/brianhannigan/threat-hunts" alt="thebuyerhunt threat hunt banner" width="100%" />
+        <img src="https://github.com/brianhannigan/threat-hunts/blob/main/assets/the_buyer_banner.svg" alt="thebuyerhunt threat hunt banner" width="100%" />
       </a>
       <h3>🧾 thebuyerhunt</h3>
       <p>A published threat hunt focused on buyer-themed intrusion patterns, investigative logic, and repeatable analyst workflows.</p>
