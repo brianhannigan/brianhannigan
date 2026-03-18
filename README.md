@@ -22,10 +22,12 @@
 
 <table>
   <tr>
-    <td width="100%" valign="top">
-      <a href="https://github.com/brianhannigan/systems-engineer-field-guide">
-        <img src="https://opengraph.githubassets.com/main/brianhannigan/systems-engineer-field-guide" alt="Systems Engineer Field Guide banner" width="100%" />
-      </a>
+    <td width="100%" valign="top">      
+        <img src="https://github.com/brianhannigan/systems-engineer-field-guide/blob/main/assets/systems_engineer_field_guide_header.svg" alt="Systems Engineer Field Guide banner" width="100%" />
+    </td>
+  </tr>
+      <tr>
+        <td>
       <h3>📘 Systems Engineer Field Guide</h3>
       <p>A practical field guide for systems engineering, operational thinking, documentation, and building dependable mission-focused systems.</p>
       <ul>
