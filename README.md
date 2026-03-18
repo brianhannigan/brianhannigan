@@ -14,7 +14,33 @@
 
 <hr/>
 
-<h2 align="center">⚡ Flagship Projects</h2>
+<h2 align="center">🛠 Current Work</h2>
+
+<p align="center">
+  <sub>Active writing and systems engineering work that I want easy to find from the top of the profile.</sub>
+</p>
+
+<table>
+  <tr>
+    <td width="100%" valign="top">
+      <a href="https://github.com/brianhannigan/systems-engineer-field-guide">
+        <img src="https://opengraph.githubassets.com/main/brianhannigan/systems-engineer-field-guide" alt="Systems Engineer Field Guide banner" width="100%" />
+      </a>
+      <h3>📘 Systems Engineer Field Guide</h3>
+      <p>A practical field guide for systems engineering, operational thinking, documentation, and building dependable mission-focused systems.</p>
+      <ul>
+        <li>Applied systems engineering patterns</li>
+        <li>Field-ready documentation and operational guidance</li>
+        <li>Reference material for disciplined engineering execution</li>
+      </ul>
+      <p><a href="https://github.com/brianhannigan/systems-engineer-field-guide"><strong>View repository →</strong></a></p>
+    </td>
+  </tr>
+</table>
+
+<hr/>
+
+<h2 align="center">⚡ Featured Projects</h2>
 
 <p align="center">
   <sub>Product-style repositories with demos, architecture, and deployable workflows.</sub>
@@ -106,10 +132,21 @@
       <p><a href="https://github.com/brianhannigan/SurgicalVisualization"><strong>View repository →</strong></a></p>
     </td>
   </tr>
-  <tr>   
+  <tr>
     <td width="50%" valign="top">
-    
+      <a href="https://github.com/brianhannigan/threat-hunts/blob/main/hunts/thebuyerhunt.md">
+        <img src="https://opengraph.githubassets.com/main/brianhannigan/threat-hunts" alt="thebuyerhunt threat hunt banner" width="100%" />
+      </a>
+      <h3>🧾 thebuyerhunt</h3>
+      <p>A published threat hunt focused on buyer-themed intrusion patterns, investigative logic, and repeatable analyst workflows.</p>
+      <ul>
+        <li>Documented hunt methodology and hypotheses</li>
+        <li>Threat hunting workflow built for analyst reuse</li>
+        <li>Direct access to the specific hunt write-up</li>
+      </ul>
+      <p><a href="https://github.com/brianhannigan/threat-hunts/blob/main/hunts/thebuyerhunt.md"><strong>Open hunt write-up →</strong></a></p>
     </td>
+    <td width="50%" valign="top"></td>
   </tr>
 </table>
 
@@ -306,7 +343,7 @@ but to build **deployable systems with clarity and confidence.**
 
 # 🤝 Connect
 
-LinkedIn: https://linkedin.com/in/brianjhannigan  
+LinkedIn: https://www.linkedin.com/in/brianhannigan/  
 GitHub: https://github.com/brianhannigan  
 
 ---
@@ -375,10 +412,10 @@ I focus on practical, operations-ready security work: alert triage, vulnerabilit
 
 ## ⚠️ Vulnerability Management Projects -- UPDATING
 
-- 🔍 **[Vulnerability Management Program Implementation]**  
+- 🔍 **[Vulnerability Management Program Implementation](https://github.com/brianhannigan/vulnerability-management-program/)**  
   End-to-end vulnerability management workflow covering discovery, prioritization, remediation, and reporting.
 
-- 🛠️ **[Programmatic Vulnerability Remediations (PowerShell & Bash)]**  
+- 🛠️ **Programmatic Vulnerability Remediations (PowerShell & Bash)**  
   Automated remediation scripts for common security findings across Windows and Linux environments.
 
 ---
@@ -388,7 +425,7 @@ I focus on practical, operations-ready security work: alert triage, vulnerabilit
 - 🐾🔐 **[Threat Hunting Scenario - CloutHaus](https://github.com/brianhannigan/KC7-CloutHaus)**  
    Phishing → Mailbox Compromise → Exfiltration (KQL Case Study)
   
-- 🕵️ **[Threat Hunting Scenario – TOR Browser Usage]**  
+- 🕵️ **Threat Hunting Scenario – TOR Browser Usage**  
   Detection and investigation of anonymization tools within enterprise environments using realistic SOC workflows.
 
 - 🤖 **[Automated Incident Tracking](https://github.com/brianhannigan/automated-incident-tracking)**  
