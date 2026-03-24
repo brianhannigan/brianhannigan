@@ -23,7 +23,7 @@
 <table>
   <tr>
     <td width="100%" valign="top">      
-        <img src="https://github.com/brianhannigan/systems-administrator-field-guide/blob/main/assets/systems_administrator_field_guide_header.svg" alt="Systems Administrator Field Guide banner" width="100%" />
+        <img src="https://github.com/brianhannigan/system-administrator-field-guide/blob/main/assets/systems_administrator_field_guide_header.svg" alt="Systems Administrator Field Guide banner" width="100%" />
     </td>
   </tr>
       <tr>
@@ -35,7 +35,7 @@
         <li>Field-ready documentation and operational guidance</li>
         <li>Reference material for disciplined engineering execution</li>
       </ul>
-      <p><a href="https://github.com/brianhannigan/systems-administrator-field-guide"><strong>View repository →</strong></a></p>
+      <p><a href="https://github.com/brianhannigan/system-administrator-field-guide"><strong>View repository →</strong></a></p>
     </td>
   </tr>
 </table>
